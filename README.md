@@ -93,3 +93,4 @@ Ce document répertorie l'architecture de l'espace de travail ainsi que les **d�
 ### C. Scripts `.nss` vs `.ncs` et Fichiers `#include`
 * Le jeu n'exécute **que** les fichiers compilés `.ncs` présents dans `Override/` (ou dans les modules `.mod`/`.rim`).
 * Les fichiers `k_inc_*.nss` (comme `k_inc_force.nss` ou `k_inc_combat.nss`) sont des bibliothèques (`#include`) sans fonction `main()`. Si vous modifiez `k_inc_force.nss` (par exemple pour rééquilibrer le pouvoir de Vitesse), vous devez compiler **`k_sp1_generic.nss` ➔ `k_sp1_generic.ncs`** et placer `k_sp1_generic.ncs` dans `Override/`.
+
