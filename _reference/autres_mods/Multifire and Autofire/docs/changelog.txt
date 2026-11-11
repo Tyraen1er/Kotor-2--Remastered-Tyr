@@ -1,0 +1,11 @@
+1.2.0
+	Added different install options to only apply extra attacks to certain weapon types
+	If you add extra attacks to rifles or heavy weapons, the base damage will be reduced to match KotOR 1 values
+
+1.1.0
+	Added +1-4 Damage Bonus to all Superior Dueling Feats
+	Removed extraneous double heartbeat call
+	Finesse Lightsaber will be re-enabled, if another mod has disabled it due to its default bugs
+
+1.0.0
+	Initial Release

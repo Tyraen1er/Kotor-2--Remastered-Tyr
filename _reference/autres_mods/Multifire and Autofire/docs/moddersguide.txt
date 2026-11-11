@@ -1,0 +1,85 @@
+This file documents what files are added or edited by the mod, and what those files do.
+
+TLK Modifications
+	Replaced lines 1164, 1166
+		Replaced Blaster Rifle and Heavy Weapons descriptions to mention multi and autofire
+	Replaced lines 41931-41933
+		Replaced Dueling descriptions to describe which weapons they apply for
+	Replaced lines 48214, 48217
+		Replaced Finesse descriptions to mention they both work with unarmed now
+	Added 38 lines for name and description of Multishot and Superior Focus feats
+
+Modified 2da Files
+	feat.2da
+		Modified by installer to add new feats.
+			AUTO_SHOT (Added Row)
+			IMPROVED_AUTO_SHOT (Added Row)
+			MASTER_AUTO_SHOT (Added Row)
+			SUPER_WEAPON_FOCUS_BLASTER_* (Added Rows)
+			SUPER_WEAPON_FOCUS_BLASTER_RIFLE_* (Added Rows)
+			SUPER_WEAPON_FOCUS_MELEE_WEAPONS_* (Added Rows)
+			SUPER_DUELING_* (Added Rows)
+			SUPER_AUTO_SHOT_* (Added Rows)
+			SUPER_WEAPON_FOCUS_BLASTER_* (Added Rows)
+	globalcat.2da
+		Modified by installer to include new global variables
+			ATOSHT_INS (Boolean)
+				For mod compatibility system. Allows other mods to see if Multifire and Autofire is installed.
+	weapondischarge.2da
+		Modified by installer to allow Sniper Shot and Power Blast to make multiple attacks per rounds. This applies to Pistols, Dual Pistols, Rifles, and Heavy Weapons
+
+Replaced Vanilla Scripts
+	k_ai_master.ncs
+		Installed to Override
+		Vanilla Game AI Script
+		Added lines to fire dbm_event_hen.ncs and dbm_event_npc.ncs scripts.
+		This file will be included with any other mod which uses the same method of injection, or any mod that edits AI. They will need a compatiblity patch.
+		This file is shared with all of my other mods that use this method of injection, and includes their required changes, allowing compatiblity between my mods.
+		Improved AI also includes these added lines for compatibility. If you use those files as a base, your mod should still be compatible.
+
+Added Scripts
+	atosht_heart.ncs (Compiled by installer, source is in tslpatchdata folder)
+		Installed to Override
+		Run by k_ai_master.utp
+		Heartbeat script to handle all of the feat effects and character changes, and apply them
+	dbm_event_hen.ncs
+		Installed to Override
+		Fires the atosht_heart.ncs (as well as scripts for my other mods if they are present, to allow compatibility)
+		This file is shared with all of my other mods that use this method of injection, and includes their required changes, allowing compatiblity between my mods
+	dbm_event_npc.ncs
+		Installed to Override
+		Fires the atosht_heart.ncs (as well as scripts for my other mods if they are present, to allow compatibility)
+		This file is shared with all of my other mods that use this method of injection, and includes their required changes, allowing compatiblity between my mods
+	atosht_ins.ncs
+		Installed to Override
+		For mod compatibility system. Can be used as a dialogue conditional to check if Multifire and Autofire is installed.
+		Can also be used as a ExecuteScript to set Boolean ATOSHT_INS, and check whether Multifire and Autofire is installed.
+
+Texture Files
+	i_atosht01.tpc
+		Icon for Multishot
+	i_atosht02.tpc
+		Icon for Improved Multishot
+	i_atosht03.tpc
+		Icon for Master Multishot
+	if_sfocatosht0*.tpc
+		Icons for Superior Multishot
+	if_sfocblas0*.tpc
+		Icons for Superior Focus Blasters
+	if_sfocduel0*.tpc
+		Icons for Superior Dueling
+	if_sfoclsab0*.tpc
+		Icons for Superior Focus Lightsabers (New icons, Melee weapons uses old icons)
+	if_sfocmele0*.tpc
+		Icons for Superior Focus Melee Weapons (Copy of Vanilla Lightsaber focus icons)
+	if_sfocrifl0*.tpc
+		Icons for Superior Focus Blaster Rfiles
+
+Unmodified Include Scripts
+	k_inc_debug.nss
+	k_inc_drop.nss
+	k_inc_generic.nss
+	k_inc_gensupport.nss
+	k_inc_switch.nss
+	k_inc_utility.nss
+	k_inc_walkways.nss

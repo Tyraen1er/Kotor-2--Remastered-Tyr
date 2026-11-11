@@ -1,0 +1,66 @@
+2026-11-06 02:14:31,594 - pykotor.resource.formats.ncs.decompiler - ERROR - DeNCS decompilation failed:
+Traceback (most recent call last):
+  File "C:\Users\emman\Desktop\dev\Kotor 2 Mods\.venv\Lib\site-packages\pykotor\resource\formats\ncs\decompiler.py", line 285, in decompile_dencs
+    from pykotor.resource.formats.ncs.dencs.actions_data import ActionsData  # noqa: PLC0415
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'pykotor.resource.formats.ncs.dencs'
+Traceback (most recent call last):
+  File "C:\Users\emman\Desktop\dev\Kotor 2 Mods\.venv\Lib\site-packages\pykotor\resource\formats\ncs\decompiler.py", line 285, in decompile_dencs
+    from pykotor.resource.formats.ncs.dencs.actions_data import ActionsData  # noqa: PLC0415
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'pykotor.resource.formats.ncs.dencs'
+2026-11-10 17:14:32,897 - pykotor.resource.formats.ncs.decompiler - ERROR - DeNCS decompilation failed:
+Traceback (most recent call last):
+  File "C:\Users\emman\Desktop\dev\Kotor 2 Mods\.venv\Lib\site-packages\pykotor\resource\formats\ncs\decompiler.py", line 285, in decompile_dencs
+    from pykotor.resource.formats.ncs.dencs.actions_data import ActionsData  # noqa: PLC0415
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'pykotor.resource.formats.ncs.dencs'
+Traceback (most recent call last):
+  File "C:\Users\emman\Desktop\dev\Kotor 2 Mods\.venv\Lib\site-packages\pykotor\resource\formats\ncs\decompiler.py", line 285, in decompile_dencs
+    from pykotor.resource.formats.ncs.dencs.actions_data import ActionsData  # noqa: PLC0415
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'pykotor.resource.formats.ncs.dencs'
+2026-11-10 17:14:32,904 - pykotor.resource.formats.ncs.decompiler - ERROR - DeNCS decompilation failed:
+Traceback (most recent call last):
+  File "C:\Users\emman\Desktop\dev\Kotor 2 Mods\.venv\Lib\site-packages\pykotor\resource\formats\ncs\decompiler.py", line 285, in decompile_dencs
+    from pykotor.resource.formats.ncs.dencs.actions_data import ActionsData  # noqa: PLC0415
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'pykotor.resource.formats.ncs.dencs'
+Traceback (most recent call last):
+  File "C:\Users\emman\Desktop\dev\Kotor 2 Mods\.venv\Lib\site-packages\pykotor\resource\formats\ncs\decompiler.py", line 285, in decompile_dencs
+    from pykotor.resource.formats.ncs.dencs.actions_data import ActionsData  # noqa: PLC0415
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'pykotor.resource.formats.ncs.dencs'
+2026-11-10 17:14:32,905 - pykotor.resource.formats.ncs.decompiler - ERROR - DeNCS decompilation failed:
+Traceback (most recent call last):
+  File "C:\Users\emman\Desktop\dev\Kotor 2 Mods\.venv\Lib\site-packages\pykotor\resource\formats\ncs\decompiler.py", line 285, in decompile_dencs
+    from pykotor.resource.formats.ncs.dencs.actions_data import ActionsData  # noqa: PLC0415
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'pykotor.resource.formats.ncs.dencs'
+Traceback (most recent call last):
+  File "C:\Users\emman\Desktop\dev\Kotor 2 Mods\.venv\Lib\site-packages\pykotor\resource\formats\ncs\decompiler.py", line 285, in decompile_dencs
+    from pykotor.resource.formats.ncs.dencs.actions_data import ActionsData  # noqa: PLC0415
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'pykotor.resource.formats.ncs.dencs'
+2026-11-10 17:14:32,906 - pykotor.resource.formats.ncs.decompiler - ERROR - DeNCS decompilation failed:
+Traceback (most recent call last):
+  File "C:\Users\emman\Desktop\dev\Kotor 2 Mods\.venv\Lib\site-packages\pykotor\resource\formats\ncs\decompiler.py", line 285, in decompile_dencs
+    from pykotor.resource.formats.ncs.dencs.actions_data import ActionsData  # noqa: PLC0415
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'pykotor.resource.formats.ncs.dencs'
+Traceback (most recent call last):
+  File "C:\Users\emman\Desktop\dev\Kotor 2 Mods\.venv\Lib\site-packages\pykotor\resource\formats\ncs\decompiler.py", line 285, in decompile_dencs
+    from pykotor.resource.formats.ncs.dencs.actions_data import ActionsData  # noqa: PLC0415
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'pykotor.resource.formats.ncs.dencs'
+2026-11-10 18:30:11,285 - pykotor.resource.formats.ncs.decompiler - ERROR - DeNCS decompilation failed:
+Traceback (most recent call last):
+  File "C:\Users\emman\Desktop\dev\Kotor 2 Mods\.venv\Lib\site-packages\pykotor\resource\formats\ncs\decompiler.py", line 285, in decompile_dencs
+    from pykotor.resource.formats.ncs.dencs.actions_data import ActionsData  # noqa: PLC0415
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'pykotor.resource.formats.ncs.dencs'
+Traceback (most recent call last):
+  File "C:\Users\emman\Desktop\dev\Kotor 2 Mods\.venv\Lib\site-packages\pykotor\resource\formats\ncs\decompiler.py", line 285, in decompile_dencs
+    from pykotor.resource.formats.ncs.dencs.actions_data import ActionsData  # noqa: PLC0415
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'pykotor.resource.formats.ncs.dencs'

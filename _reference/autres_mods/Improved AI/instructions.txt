@@ -1,0 +1,4 @@
+The file in this archive, Modified AI.exe, is a self-extracting archive compressed with the 7Zip file compression utility. 7Zip is similar to ZIP and RAR, but produced much smaller files. 
+
+Run the self-extracting archive and unpack the Modified AI" folder inside to some location on your harddrive (NOT the game's override folder). Then run the "Install AI Tweak.exe" installer (found inside that folder) to install the Improved NPC/Creature Combat AI mod.
+
