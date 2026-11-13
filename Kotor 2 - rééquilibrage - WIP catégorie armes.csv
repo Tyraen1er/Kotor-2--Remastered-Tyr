@@ -1,0 +1,58 @@
+Vanilla type d'arme,Damage,Range,Critical Threat,Bonus,Catégorie,Maniement
+Blaster rifle,,,,,,
+Blaster carbines,Energy 1-12,25m,"20-20,x2",,,2M
+Blaster rifles,Energy 1-12,28m,"19-20,x2",,,2M
+Bowcasters,Energy 1-10,28m,"19-20,x3",,,2M
+Repeating blasters,Energy 2-12,28m,"20-20,x2",,,D
+Heavy repeating blasters,Energy 3-22,28m,"20-20,x2",,,D
+Disruptor rifles,Unstoppable 1-10,28m,"18-20,x2",,,2M
+Ion rifles,Ion 1-10,28m,"20-20,x3",Ion: +1-10 vs. Droid,,2M
+Sonic rifles,Sonic 1-10,28m,"20-20,x2",On Hit: AD Dex DC 14,,2M
+Blaster Rifle (craftable),Energy 1-12,28m,"19-20,x2",,,2M
+Repeating Blaster Rifle (craftable),Energy 2-12,28m,"20-20,x2",,,D
+Disruptor Rifle (craftable),Unstoppable 1-10,28m,"18-20,x2",,,2M
+Blaster pistol,,,,,,
+Blaster pistols,"Energy, 1-8",23m,"20-20,x2",,,1M
+Heavy blasters,"Energy, 1-10",23m,"20-20,x2",,,1M
+Hold out blasters,"Energy, 1-4",23m,"19-20,x2",Massive Criticals: +1-4,,1M
+Disruptor pistols,"Unstoppable, 1-6",23m,"18-20,x2",,,1M
+Ion blasters,"Ion, 1-6",17m,"20-20,x3",Ion: +1-10 vs. Droid,,1M
+Sonic pistols,"Sonic, 1-4",17m,"20-20,x2",On Hit: AD Dex DC 14,,1M
+Blaster Pistol (Craftable),Energy 1-8,23m,"20-20,x2",,,1M
+Hold Out Blaster (Craftable),Energy 1-4,23m,"19-20,x2",Massive Criticals: +1-4,,1M
+Disruptor Pistol (Craftable),Unstoppable 1-6,23m,"18-20,x2",,,1M
+Melee Weapon,,,,,,
+Unarmed,Physical 1-3,,"20-20,x2",,Contondante,1M
+Stun batons,Bludgeoning 1-1,,"20-20,x2",,Contondante,1M (balanced)
+Short swords,Piercing 1-6,,"20-20,x2",,Primitive,1M (balanced)
+Vibroblades,Piercing 1-10,,"19-20,x2",,Vibrantes,1M (balanced)
+Long swords,Slashing 1-12,,"20-20,x2",,Primitive,1M
+Gamorrean battleaxes,Slashing 1-12,,"20-20,x2",,Primitive,2M
+Vibroswords,Slashing 2-12,,"19-20,x2",,Vibrantes,2M
+Quarterstaffs,Bludgeoning 1-6,,"20-20,x2",,Contondante,D (balanced)
+Force pikes,Bludgeoning 2-12,,"20-20,x2",,Contondante,2M
+Double-Bladed Sword,Slashing 2-12,,"20-20,x2",,Primitive,D (balanced)
+Vibro double-blades,Slashing 2-16,,"20-20,x2",,Vibrantes,D (balanced)
+Wookie warblades,Slashing 1-10,,"20-20,x2",,,
+Gaffi sticks,Piercing 1-8,,"20-20,x2",,,
+Short swords (craftable),Piercing 1-6,,"20-20,x2",,,
+Long swords (craftable),Slashing 1-12,,"20-20,x2",,,
+Vibroswords (craftable),Slashing 2-12,,"19-20,x2",,,
+Vibro double-blades (craftable),Slashing 2-16,,"20-20,x2",,,
+Short light Saber,Energy 2-16,,"19-20,x2",,Laser,1M (balanced)
+Light Saber,Energy 2-20,,"19-20,x2",,Laser,1M
+Double Light Saber,Energy 2-24,,"20-20,x2",,Laser,D (balanced)
+Wrist launcher & Rockets,,,,,,
+Wrist launcher,,25m,,,,
+Rockets,Varies (20-60),25m,,,,
+Grenades,,,,,,
+Fragmentation grenades,Physical 20,25m,,DC 15 Refl half,,
+Stun grenades,,25m,,Stun 9s (DC 15 Will),,
+Thermal detonators,Energy 60,25m,,DC 15 Refl half,,
+Poison grenades,Poison,25m,,Poison 12s (DC 15 Fort),,
+Flash grenades,,25m,,Blind (DC 15 Refl),,
+Sonic grenades,Sonic 20,25m,,AD Dex -6 30s (DC 15 Refl),,
+Adhesive grenades,,25m,,Entangle 15s (DC 15 Refl),,
+Cryoban grenades,Cold 30,25m,,Freeze 6s (DC 15 Refl half),,
+Fire grenades,Fire 40,25m,,DC 15 Refl half,,
+Ion grenades,Ion 20,25m,,+40 vs Droid/Shield (DC 15 Refl),,

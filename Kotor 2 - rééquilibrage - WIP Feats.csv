@@ -1,0 +1,317 @@
+﻿ID 2DA,Label 2DA,Nom (FR),Source,Catégorie,Prérequis (vanilla),Effet (vanilla / description),Changement (mod)
+1,ADVANCED_JEDI_DEFENSE,Défense de Jedi II,Vanilla,Défense & survie,Niv. 4 ; JEDI_DEFENSE,Bonus de renvoi +3 (auto Jedi),Idem §4
+2,XXXX_ADVANCED_GUARD_STANCE,Posture de garde améliorée,Vanilla,Caché / interne,,Caché (XXXX) — non utilisé,
+3,TWO_WEAPON_FIGHTING,Combat à deux armes I,Vanilla,Style & posture,,Malus 2 armes : -4/-8 (arme équilibrée en main gauche : -2/-6),Style de combat.csv (WIP) : Rang I devient -6/-6 Atq & +1 CA
+4,ARMOUR_PROF_HEAVY,Port d'armure lourde,Vanilla,Défense & survie,ARMOUR_PROF_LIGHT ; ARMOUR_PROF_MEDIUM,Porter les armures lourdes sans pénalité,§8 ACTÉ : RD native 4 (don inchangé)
+5,ARMOUR_PROF_LIGHT,Port d'armure légère,Vanilla,Défense & survie,,Porter les armures légères sans pénalité,§8 ACTÉ : RD native ajoutée par type d'armure (légère 0 / interm. 2 / lourde 4) — le don lui-même est inchangé
+6,ARMOUR_PROF_MEDIUM,Port d'armure intermédiaire,Vanilla,Défense & survie,ARMOUR_PROF_LIGHT,Porter les armures intermédiaires sans pénalité,§8 ACTÉ : RD native 2 (don inchangé)
+7,CAUTIOUS,Prudence I,Vanilla,Compétence & utilitaire,,+1 Démolition et Premiers soins,
+8,CRITICAL_STRIKE,Coup critique I,Vanilla,Actif — mêlée,,"Plage de menace ×2, -5 CA ; étourdit 1 round si Vigueur échouée (DD = Niv. + Mod. FOR)",
+9,TWO_WEAPON_ADVANCED,Combat à deux armes II,Vanilla,Style & posture,Niv. 4 ; TWO_WEAPON_FIGHTING,-2/-4 (0/-2 équilibrée),Style de combat.csv (WIP) : Rang II devient -4/-4 Atq & +2 CA
+10,EMPATHY,Empathie I,Vanilla,Compétence & utilitaire,,"+1 Persuasion, Vigilance et Premiers soins",
+11,FLURRY,Déluge de coups I,Vanilla,Actif — mêlée,,"+1 attaque/round ; -4 Atq, -4 CA (le round)",
+12,GEAR_HEAD,Bricoleur I,Vanilla,Compétence & utilitaire,,"+1 Sécurité, Informatique et Réparation",
+13,CONDITIONING,Condition physique I,Vanilla,Défense & survie,,+1 à toutes les sauvegardes,
+14,XXXX_IMPLANT_LEVEL_1,Niveau d'implant 1 (caché),Vanilla,Caché / interne,,Permet d'équiper les implants de niveau 1,
+15,XXXX_IMPLANT_LEVEL_2,Niveau d'implant 2 (caché),Vanilla,Caché / interne,Niv. 4 ; XXXX_IMPLANT_LEVEL_1,Permet d'équiper les implants de niveau 2,
+16,XXXX_IMPLANT_LEVEL_3,Niveau d'implant 3 (caché),Vanilla,Caché / interne,Niv. 8 ; XXXX_IMPLANT_LEVEL_1 ; XXXX_IMPLANT_LEVEL_2,Permet d'équiper les implants de niveau 3,
+17,IMPROVED_POWER_ATTACK,Attaque en puissance II,Vanilla,Actif — mêlée,Niv. 4 ; POWER_ATTACK,"-3 Atq, +7 dégâts (+14 à 2 armes/double)",
+18,IMPROVED_POWER_BLAST,Décharge d'énergie II,Vanilla,Actif — distance,Niv. 4 ; POWER_BLAST,"-3 Atq, +8 dégâts ; chance de renverser",
+19,IMPROVED_CRITICAL_STRIKE,Coup critique II,Vanilla,Actif — mêlée,Niv. 4 ; CRITICAL_STRIKE,"Plage ×3 (reste -5 CA, stun)",
+20,IMPROVED_SNIPER_SHOT,Tir de sniper II,Vanilla,Actif — distance,Niv. 4 ; SNIPER_SHOT,"Plage ×3 (reste -5 CA, stun)",
+21,IMPROVED_CONDITIONING,Condition physique II,Vanilla,Défense & survie,Niv. 4 ; CONDITIONING,+2 à toutes les sauvegardes,
+22,MASTER_CONDITIONING,Condition physique III,Vanilla,Défense & survie,Niv. 8 ; CONDITIONING ; IMPROVED_CONDITIONING,+3 à toutes les sauvegardes,§8.D ACTÉ : rang III passe à +3 toutes saves + 2 supplémentaires vs pouvoirs de Force
+24,MASTER_JEDI_DEFENSE,Défense de Jedi III,Vanilla,Défense & survie,Niv. 8 ; JEDI_DEFENSE ; ADVANCED_JEDI_DEFENSE,Bonus de renvoi +6 (auto Jedi),§4 axiome distance/mêlée (proposition) : déflexion conservée = identité de l'élite Jedi face à la distance
+25,XXXX_MASTER_GUARD_STANCE,Posture de garde maître,Vanilla,Caché / interne,,Caché (XXXX) — non utilisé,
+26,MULTI_SHOT,Tir rapide III,Vanilla,Actif — distance,Niv. 8 ; RAPID_SHOT ; IMPROVED_RAPID_SHOT,"+1 tir ; -1 Atq, -1 CA",
+27,XXXX_PERCEPTIVE,Perceptif,Vanilla,Caché / interne,,Caché (XXXX) — non utilisé,
+28,POWER_ATTACK,Attaque en puissance I,Vanilla,Actif — mêlée,,"Mode actif : -3 Atq, +5 dégâts/coup (dégâts doublés à 2 armes ou arme double : +10)",
+29,POWER_BLAST,Décharge d'énergie I,Vanilla,Actif — distance,,"Mode actif : -3 Atq, +5 dégâts/tir ; chance de renverser la cible",
+30,RAPID_SHOT,Tir rapide I,Vanilla,Actif — distance,,"+1 tir/round ; -4 Atq, -4 CA",
+31,SNIPER_SHOT,Tir de sniper I,Vanilla,Actif — distance,,"Plage de menace ×2, -5 CA ; étourdit si Vigueur échouée (DD = Niv. + Mod. INT)",
+32,WEAPON_FOCUS_BLASTER,Arme de prédilection : pistolets,Vanilla,Maniement d'arme,WEAPON_PROF_BLASTER,+1 Atq avec les pistolets blaster,Doublon potentiel avec les Spé d'arme custom par famille (Contondante/Primitive/Vibrante/Laser) — arbitrage à faire
+33,WEAPON_FOCUS_BLASTER_RIFLE,Arme de prédilection : fusils,Vanilla,Maniement d'arme,WEAPON_PROF_BLASTER_RIFLE,+1 Atq avec les fusils,Doublon potentiel avec l'arbre Fusil custom — arbitrage à faire
+34,XXXX_WEAPON_FOCUS_GRENADE,Arme de prédilection : grenades,Vanilla,Caché / interne,XXXX_WEAPON_PROF_GRENADE,Caché (XXXX) — utilisé par les PNJ lanceurs de grenades,
+35,XXXX_WEAPON_FOCUS_HEAVY_WEAPONS,Arme de prédilection : armes lourdes,Vanilla,Caché / interne,XXXX_WEAPON_PROF_HEAVY_WEAPONS,Caché (XXXX) — PNJ,
+36,WEAPON_FOCUS_LIGHTSABER,Arme de prédilection : sabres,Vanilla,Maniement d'arme,WEAPON_PROF_LIGHTSABER,+1 Atq avec les sabres,Doublon potentiel avec la Spé Arme Laser custom — arbitrage à faire
+37,WEAPON_FOCUS_MELEE_WEAPONS,Arme de prédilection : mêlée,Vanilla,Maniement d'arme,WEAPON_PROF_MELEE_WEAPONS,+1 Atq en mêlée,Doublon potentiel avec les Spé d'arme custom — arbitrage à faire
+38,XXXX_WEAPON_FOCUS_SIMPLE_WEAPONS,Arme de prédilection : armes simples,Vanilla,Caché / interne,XXXX_WEAPON_PROF_SIMPLE_WEAPONS,Caché (XXXX) — PNJ,
+39,WEAPON_PROF_BLASTER,Port d'armes : pistolets blaster,Vanilla,Maniement d'arme,,Équiper les pistolets sans le malus de non-maniement (-4 Atq),
+40,WEAPON_PROF_BLASTER_RIFLE,Port d'armes : fusils blaster,Vanilla,Maniement d'arme,,Équiper les fusils sans malus (-4 Atq),
+41,XXXX_WEAPON_PROF_GRENADE,Port d'armes : grenades,Vanilla,Caché / interne,,Caché (XXXX) — PNJ,
+42,XXXX_WEAPON_PROF_HEAVY_WEAPONS,Port d'armes : armes lourdes,Vanilla,Caché / interne,,Caché (XXXX) — PNJ,
+43,WEAPON_PROF_LIGHTSABER,Port d'armes : sabres laser,Vanilla,Maniement d'arme,,Équiper les sabres sans malus (-4 Atq),
+44,WEAPON_PROF_MELEE_WEAPONS,Port d'armes : armes de mêlée,Vanilla,Maniement d'arme,,Équiper les armes de mêlée sans malus (-4 Atq),
+45,XXXX_WEAPON_PROF_SIMPLE_WEAPONS,Port d'armes : armes simples,Vanilla,Caché / interne,,Caché (XXXX) — PNJ,
+46,WEAPON_SPEC_BLASTER,Spécialisation martiale : pistolets,Vanilla,Maniement d'arme,Niv. 4 ; WEAPON_PROF_BLASTER ; WEAPON_FOCUS_BLASTER,+2 dégâts avec les pistolets (Soldat/Gardien/prestige martiale),Doublon potentiel avec les Spé d'arme custom (rang I +2 Atq & Dégâts) — arbitrage à faire
+47,WEAPON_SPEC_BLASTER_RIFLE,Spécialisation martiale : fusils,Vanilla,Maniement d'arme,Niv. 4 ; WEAPON_PROF_BLASTER_RIFLE ; WEAPON_FOCUS_BLASTER_RIFLE,+2 dégâts avec les fusils,Doublon potentiel avec l'arbre Fusil custom — arbitrage à faire
+48,XXXX_WEAPON_SPEC_GRENADE,Spécialisation : grenades,Vanilla,Caché / interne,XXXX_WEAPON_PROF_GRENADE ; XXXX_WEAPON_FOCUS_GRENADE,Caché (XXXX) — PNJ,
+49,XXXX_WEAPON_SPEC_HEAVY_WEAPONS,Spécialisation : armes lourdes,Vanilla,Caché / interne,Niv. 4 ; XXXX_WEAPON_PROF_HEAVY_WEAPONS ; XXXX_WEAPON_FOCUS_HEAVY_WEAPONS,Caché (XXXX) — PNJ,
+50,WEAPON_SPEC_LIGHTSABER,Spécialisation martiale : sabres,Vanilla,Maniement d'arme,Niv. 4 ; WEAPON_PROF_LIGHTSABER ; WEAPON_FOCUS_LIGHTSABER,+2 dégâts avec les sabres,Doublon potentiel avec la Spé Arme Laser custom — arbitrage à faire
+51,WEAPON_SPEC_MELEE_WEAPONS,Spécialisation martiale : mêlée,Vanilla,Maniement d'arme,Niv. 4 ; WEAPON_PROF_MELEE_WEAPONS ; WEAPON_FOCUS_MELEE_WEAPONS,+2 dégâts en mêlée,Doublon potentiel avec les Spé d'arme custom — arbitrage à faire
+52,XXXX_WEAPON_SPEC_SIMPLE_WEAPONS,Spécialisation : armes simples,Vanilla,Caché / interne,XXXX_WEAPON_PROF_SIMPLE_WEAPONS ; XXXX_WEAPON_FOCUS_SIMPLE_WEAPONS,Caché (XXXX) — PNJ,
+53,WHIRLWIND_ATTACK,Déluge de coups III (Maître),Vanilla,Actif — mêlée,Niv. 8 ; FLURRY ; IMPROVED_FLURRY,"+1 attaque ; -1 Atq, -1 CA",
+54,XXXX_GUARD_STANCE,Posture de garde,Vanilla,Caché / interne,,Caché (XXXX) — non utilisé,
+55,JEDI_DEFENSE,Défense de Jedi I,Vanilla,Défense & survie,,Dévier les tirs de blaster (jet opposé) ; renvoi si marge ≥ 10 (auto Jedi),Idem §4
+56,UNCANNY_DODGE_1,Esquive instinctive I,Vanilla,Défense & survie,,Conserve le mod. de DEX à la CA même pris au dépourvu,
+57,UNCANNY_DODGE_2,Esquive instinctive II,Vanilla,Défense & survie,UNCANNY_DODGE_1,Bonus aux sauvegardes contre les mines,
+58,XXXX_SKILL_FOCUS_COMPUTER_USE,Expertise : Informatique,Vanilla,Caché / interne,Niv. 0,Caché (XXXX) — focus de compétence,
+60,SNEAK_ATTACK_1D6,Attaque sournoise +1d6,Vanilla,Classe (auto),,+1d6 dégâts sur cible au dépourvu/flanquée/incapable de se défendre (auto Voyou/Assassin/Ombre),
+61,SNEAK_ATTACK_2D6,Attaque sournoise +2d6,Vanilla,Classe (auto),SNEAK_ATTACK_1D6,+1d6 dégâts sur cible au dépourvu/flanquée/incapable de se défendre (auto Voyou/Assassin/Ombre),
+62,SNEAK_ATTACK_3D6,Attaque sournoise +3d6,Vanilla,Classe (auto),SNEAK_ATTACK_1D6 ; SNEAK_ATTACK_2D6,+1d6 dégâts sur cible au dépourvu/flanquée/incapable de se défendre (auto Voyou/Assassin/Ombre),
+63,SNEAK_ATTACK_4D6,Attaque sournoise +4d6,Vanilla,Classe (auto),,+1d6 dégâts sur cible au dépourvu/flanquée/incapable de se défendre (auto Voyou/Assassin/Ombre),
+64,SNEAK_ATTACK_5D6,Attaque sournoise +5d6,Vanilla,Classe (auto),SNEAK_ATTACK_4D6,+1d6 dégâts sur cible au dépourvu/flanquée/incapable de se défendre (auto Voyou/Assassin/Ombre),
+65,SNEAK_ATTACK_6D6,Attaque sournoise +6d6,Vanilla,Classe (auto),SNEAK_ATTACK_4D6 ; SNEAK_ATTACK_5D6,+1d6 dégâts sur cible au dépourvu/flanquée/incapable de se défendre (auto Voyou/Assassin/Ombre),
+66,SNEAK_ATTACK_7D6,Attaque sournoise +7d6,Vanilla,Classe (auto),,+1d6 dégâts sur cible au dépourvu/flanquée/incapable de se défendre (auto Voyou/Assassin/Ombre),
+67,SNEAK_ATTACK_8D6,Attaque sournoise +8d6,Vanilla,Classe (auto),SNEAK_ATTACK_7D6,+1d6 dégâts sur cible au dépourvu/flanquée/incapable de se défendre (auto Voyou/Assassin/Ombre),
+68,SNEAK_ATTACK_9D6,Attaque sournoise +9d6,Vanilla,Classe (auto),SNEAK_ATTACK_7D6 ; SNEAK_ATTACK_8D6,+1d6 dégâts sur cible au dépourvu/flanquée/incapable de se défendre (auto Voyou/Assassin/Ombre),
+69,SNEAK_ATTACK_10D6,Attaque sournoise +10d6,Vanilla,Classe (auto),,+1d6 dégâts sur cible au dépourvu/flanquée/incapable de se défendre (auto Voyou/Assassin/Ombre),
+70,XXXX_SKILL_FOCUS_DEMOLITIONS,Expertise : Démolition,Vanilla,Caché / interne,Niv. 0,Caché (XXXX) — focus de compétence,
+71,XXXX_SKILL_FOCUS_STEALTH,Expertise : Discrétion,Vanilla,Caché / interne,Niv. 0,Caché (XXXX) — focus de compétence,
+72,XXXX_SKILL_FOCUS_AWARENESS,Expertise : Vigilance,Vanilla,Caché / interne,Niv. 0,Caché (XXXX) — focus de compétence,
+73,XXXX_SKILL_FOCUS_PERSUADE,Expertise : Persuasion,Vanilla,Caché / interne,,Caché (XXXX) — focus de compétence,
+74,XXXX_SKILL_FOCUS_REPAIR,Expertise : Réparation,Vanilla,Caché / interne,,Caché (XXXX) — focus de compétence,
+75,XXXX_SKILL_FOCUS_SECURITY,Expertise : Sécurité,Vanilla,Caché / interne,,Caché (XXXX) — focus de compétence,
+76,XXXX_SKILL_FOCUS_TREAT_INJURY,Expertise : Premiers soins,Vanilla,Caché / interne,,Caché (XXXX) — focus de compétence,
+77,MASTER_SNIPER_SHOT,Tir de sniper III,Vanilla,Actif — distance,Niv. 8 ; SNIPER_SHOT ; IMPROVED_SNIPER_SHOT,"Plage ×4 (reste -5 CA, stun)",
+78,DROID_UPGRADE_1,Amélioration de droïde I,Vanilla,Compagnon / PNJ,,+1 emplacement de module utilitaire (droïdes),
+79,DROID_UPGRADE_2,Amélioration de droïde II,Vanilla,Compagnon / PNJ,DROID_UPGRADE_1,+1 emplacement,
+80,DROID_UPGRADE_3,Amélioration de droïde III,Vanilla,Compagnon / PNJ,DROID_UPGRADE_1 ; DROID_UPGRADE_2,+1 emplacement,
+81,MASTER_CRITICAL_STRIKE,Coup critique III,Vanilla,Actif — mêlée,Niv. 8 ; CRITICAL_STRIKE ; IMPROVED_CRITICAL_STRIKE,"Plage ×4 (reste -5 CA, stun)",
+82,MASTER_POWER_BLAST,Décharge d'énergie III,Vanilla,Actif — distance,Niv. 8 ; POWER_BLAST ; IMPROVED_POWER_BLAST,"-3 Atq, +12 dégâts ; chance de renverser",
+83,MASTER_POWER_ATTACK,Attaque en puissance III,Vanilla,Actif — mêlée,Niv. 8 ; POWER_ATTACK ; IMPROVED_POWER_ATTACK,"-3 Atq, +10 dégâts (+20 à 2 armes/double)",
+84,TOUGHNESS,Robustesse I,Vanilla,Défense & survie,,+1 PV par niveau de personnage,
+85,TWO_WEAPON_MASTERY,Combat à deux armes III,Vanilla,Style & posture,Niv. 8 ; TWO_WEAPON_FIGHTING ; TWO_WEAPON_ADVANCED,0/-2 (0/0 équilibrée),Style de combat.csv (WIP) : Rang III devient -2/-2 Atq & +3 CA (identité parade/CA de l'Ambidextrie)
+86,XXXX_FORCE_FOCUS_ALTER,Focalisation Alternative,Vanilla,Caché / interne,,Caché (XXXX),
+87,XXXX_FORCE_FOCUS_CONTROL,Focalisation Contrôle,Vanilla,Caché / interne,,Caché (XXXX),
+88,FORCE_FOCUS,Focalisation de la Force I,Vanilla,Classe (auto),,Réserve de Force accrue (auto Consulaire),
+89,FORCE_FOCUS_ADVANCED,Focalisation de la Force II,Vanilla,Classe (auto),Niv. 4 ; FORCE_FOCUS,Réserve accrue,
+90,FORCE_FOCUS_MASTERY,Focalisation de la Force III,Vanilla,Classe (auto),Niv. 8 ; FORCE_FOCUS ; FORCE_FOCUS_ADVANCED,Réserve accrue,
+91,IMPROVED_FLURRY,Déluge de coups II,Vanilla,Actif — mêlée,Niv. 4 ; FLURRY,"+1 attaque ; -2 Atq, -2 CA",
+92,IMPROVED_RAPID_SHOT,Tir rapide II,Vanilla,Actif — distance,Niv. 4 ; RAPID_SHOT,"+1 tir ; -2 Atq, -2 CA",
+93,PROFICIENCY_ALL,Toutes maîtrises d'armes,Vanilla,Caché / interne,,Interne — toutes les proficiencies,
+94,BATTLE_MEDITATION,Méditation de combat,Vanilla,Caché — pouvoir de prestige,,Caché — lié au pouvoir Méditation de combat (cf. Spé Pouvoirs.csv),Référencé dans Spé Pouvoirs.csv (chantier Pouvoirs — sélection de pouvoir)
+95,WOOKIEE_TOUGHNESS,Robustesse wookiee I,Vanilla,Compagnon / PNJ,,+PV (Hanharr),
+96,BLASTER_INTEGRATION,Intégration blaster,Vanilla,Compagnon / PNJ,,Interne HK-47,
+97,XXXFORCE_CAMOFLAGE,Camouflage de Force I,Vanilla,Caché — pouvoir de prestige,,"Caché — Assassin Sith / Protecteur (discrétion sans générateur, cf. Spé Pouvoirs.csv)",Référencé dans Spé Pouvoirs.csv (Force Camouflage — Prestige Assassin/Protecteur)
+98,FORCE_IMMUNITY_FEAR,Immunité de la Force : Peur,Vanilla,Classe (auto),,Immunité à la Peur (auto Sentinelle),
+99,FORCE_IMMUNITY_STUN,Immunité de la Force : Étourdissement,Vanilla,Classe (auto),FORCE_IMMUNITY_FEAR,Immunité à l'Étourdissement,
+100,FORCE_IMMUNITY_PARALYSIS,Immunité de la Force : Paralysie,Vanilla,Classe (auto),FORCE_IMMUNITY_FEAR ; FORCE_IMMUNITY_STUN,Immunité à la Paralysie,
+101,FORCE_JUMP,Saut de Force I,Vanilla,Classe (auto),,Bond d'attaque pour fermer la distance (auto Gardien),
+102,FORCE_JUMP_ADVANCED,Saut de Force II,Vanilla,Classe (auto),FORCE_JUMP,Portée améliorée,
+103,FORCE_JUMP_MASTERY,Saut de Force III,Vanilla,Classe (auto),FORCE_JUMP ; FORCE_JUMP_ADVANCED,Portée maximale,
+104,SCOUNDRELS_LUCK,Chance du voyou I,Vanilla,Classe (auto),,+1 CA (auto Voyou),
+105,IMPROVED_SCOUNDRELS_LUCK,Chance du voyou II,Vanilla,Classe (auto),SCOUNDRELS_LUCK,+2 CA,
+106,MASTER_SCOUNDRELS_LUCK,Chance du voyou III,Vanilla,Classe (auto),SCOUNDRELS_LUCK ; IMPROVED_SCOUNDRELS_LUCK,+3 CA,
+107,JEDI_SENSE,Sens de la Force I,Vanilla,Classe (auto),,+2 CA (auto Jedi),
+108,KNIGHT_SENSE,Sens de la Force II,Vanilla,Classe (auto),,+4 CA,
+109,MASTER_SENSE,Sens de la Force III,Vanilla,Classe (auto),,+6 CA,
+110,LOGIC_UPGRADE_COMBAT,Mise à niveau logique : combat,Vanilla,Compagnon / PNJ,,T3-M4 — bonus de combat,
+111,LOGIC_UPGRADE_TACTICIAN,Mise à niveau logique : tacticien,Vanilla,Compagnon / PNJ,LOGIC_UPGRADE_COMBAT,T3-M4,
+112,LOGIC_UPGRADE_BATTLE_DROID,Mise à niveau logique : droïde de guerre,Vanilla,Compagnon / PNJ,LOGIC_UPGRADE_COMBAT ; LOGIC_UPGRADE_TACTICIAN,T3-M4,
+113,DUELING,Duel I,Vanilla,Style & posture,,"1 arme à 1 main seulement : +1 Atq, +1 CA","Refonte prévue « Science du Duel » (§6 : +Atq & CA, ignore RD / Style CSV : +crit, 150 % FOR) — à harmoniser ; mains nues = arme 1M pour ce style (cf. Style de combat.csv)"
+114,ADVANCED_DUELING,Duel II,Vanilla,Style & posture,Niv. 4 ; DUELING,"+2 Atq, +2 CA (1 arme 1M)",Refonte prévue « Science du Duel » — à harmoniser
+115,MASTER_DUELING,Duel III (Maître),Vanilla,Style & posture,Niv. 8 ; DUELING ; ADVANCED_DUELING,"+3 Atq, +3 CA (1 arme 1M)","Refonte prévue « Duel Supérieur » (§6 : +150 % Mod., crit, ignore RD 12) — à harmoniser"
+116,FORCE_SENSITIVE,Sensible à la Force,Vanilla,Caché / interne,,Interne — marque de sensibilité à la Force,
+117,IMPROVED_CAUTION,Prudence II,Vanilla,Compétence & utilitaire,Niv. 4 ; CAUTIOUS,+2 Démolition et Premiers soins,
+118,MASTER_CAUTION,Prudence III,Vanilla,Compétence & utilitaire,Niv. 8 ; CAUTIOUS ; IMPROVED_CAUTION,+3 Démolition et Premiers soins,
+119,GEAR_HEAD_ADEPT,Bricoleur II,Vanilla,Compétence & utilitaire,Niv. 4 ; GEAR_HEAD,+2 aux trois compétences,
+120,GEAR_HEAD_MASTER,Bricoleur III,Vanilla,Compétence & utilitaire,Niv. 8 ; GEAR_HEAD ; GEAR_HEAD_ADEPT,+3 aux trois compétences,
+121,IMPROVED_EMPATHY,Empathie II,Vanilla,Compétence & utilitaire,Niv. 4 ; EMPATHY,+2 aux trois compétences,
+122,MASTER__EMPATHY,Empathie III,Vanilla,Compétence & utilitaire,Niv. 8 ; EMPATHY ; IMPROVED_EMPATHY,+3 aux trois compétences,
+123,IMPROVED_TOUGHNESS,Robustesse II,Vanilla,Défense & survie,Niv. 4 ; TOUGHNESS,+1 PV/niv suppl. ET RD 2/- sur chaque attaque reçue,
+124,MASTER_TOUGHNESS,Robustesse III,Vanilla,Défense & survie,Niv. 8 ; TOUGHNESS ; IMPROVED_TOUGHNESS,+1 PV/niv suppl. (total +3 PV/niv),
+125,EVASION,Esquive (Evasion),Vanilla,Défense & survie,,Auto Éclaireur niv. 6 ; sauvegarde de Réflexes réussie contre une AoE → demi-dégâts,§7.B ACTÉ « Esquive Totale » : save réussie vs AoE = 0 dégât (échec = moitié) ; sélection uniquement via classe de prestige Niv. 15+ ; auto Jedi/Sith ennemis 20+ ; reste auto Éclaireur niv. 6 (Mira)
+126,TARGETING_1,Visée 1,Vanilla,Caché / interne,,Interne PNJ — bonus de précision (IA),
+127,TARGETING_2,Visée 2,Vanilla,Caché / interne,TARGETING_1,Interne PNJ — bonus de précision (IA),
+128,TARGETING_3,Visée 3,Vanilla,Caché / interne,TARGETING_1 ; TARGETING_2,Interne PNJ — bonus de précision (IA),
+129,TARGETING_4,Visée 4,Vanilla,Caché / interne,,Interne PNJ — bonus de précision (IA),
+130,TARGETING_5,Visée 5,Vanilla,Caché / interne,TARGETING_4,Interne PNJ — bonus de précision (IA),
+131,TARGETING_6,Visée 6,Vanilla,Caché / interne,TARGETING_4 ; TARGETING_5,Interne PNJ — bonus de précision (IA),
+132,TARGETING_7,Visée 7,Vanilla,Caché / interne,,Interne PNJ — bonus de précision (IA),
+133,TARGETING_8,Visée 8,Vanilla,Caché / interne,TARGETING_7,Interne PNJ — bonus de précision (IA),
+134,XXXX_TARGETING_9,Visée 9,Vanilla,Caché / interne,,Interne PNJ — bonus de précision (IA),
+135,XXXX_TARGETING_10,Visée 10,Vanilla,Caché / interne,,Interne PNJ — bonus de précision (IA),
+136,XXXPRECISE_SHOT_I,Tir de précision I (PNJ),Vanilla,Caché / interne,Niv. 4,Caché (XXX) — version PNJ du Tir de précision,
+137,XXXPRECISE_SHOT_II,Tir de précision II (PNJ),Vanilla,Caché / interne,Niv. 8 ; XXXPRECISE_SHOT_I,Caché (XXX) — version PNJ du Tir de précision,
+138,XXXPRECISE_SHOT_III,Tir de précision III (PNJ),Vanilla,Caché / interne,Niv. 12 ; XXXPRECISE_SHOT_I ; XXXPRECISE_SHOT_II,Caché (XXX) — version PNJ du Tir de précision,
+139,CLOSE_COMBAT,Combat rapproché I,Vanilla,Actif — distance,Niv. 4,Réduit de 2 la pénalité de -10 CA quand on tire au contact d'un ennemi de mêlée,
+140,IMPROVED_CLOSE_COMBAT,Combat rapproché II,Vanilla,Actif — distance,Niv. 8 ; CLOSE_COMBAT,Réduit de 4 la pénalité de -10 CA au tir au contact,
+141,XXXIMPROVED_FORCE_CAMOUFLAGE,Camouflage de Force II,Vanilla,Caché — pouvoir de prestige,XXXFORCE_CAMOFLAGE,"Caché — Assassin Sith / Protecteur (discrétion sans générateur, cf. Spé Pouvoirs.csv)",Référencé dans Spé Pouvoirs.csv
+142,XXXMASTER_FORCE_CAMOUFLAGE,Camouflage de Force III,Vanilla,Caché — pouvoir de prestige,XXXFORCE_CAMOFLAGE ; XXXIMPROVED_FORCE_CAMOUFLAGE,"Caché — Assassin Sith / Protecteur (discrétion sans générateur, cf. Spé Pouvoirs.csv)",Référencé dans Spé Pouvoirs.csv
+143,REGENERATE_FORCE_POINTS,Régénération de Force,Vanilla,Classe (auto),Niv. 4,Régénère des PF avec le temps (interne),
+144,XXXX_CRUSH_OPPOSITION_I,Écraser l'opposition I,Vanilla,Caché — pouvoir de prestige,,"Caché — Seigneur Sith (débuff zone Atq/Volonté, cf. Spé Pouvoirs.csv)",Référencé dans Spé Pouvoirs.csv (Prestige Seigneur Sith)
+145,XXXX_CRUSH_OPPOSITION_II,Écraser l'opposition II,Vanilla,Caché — pouvoir de prestige,XXXX_CRUSH_OPPOSITION_I,"Caché — Seigneur Sith (débuff zone Atq/Volonté, cf. Spé Pouvoirs.csv)",Référencé dans Spé Pouvoirs.csv (Prestige Seigneur Sith)
+146,XXXX_CRUSH_OPPOSITION_III,Écraser l'opposition III,Vanilla,Caché — pouvoir de prestige,XXXX_CRUSH_OPPOSITION_I ; XXXX_CRUSH_OPPOSITION_II,"Caché — Seigneur Sith (débuff zone Atq/Volonté, cf. Spé Pouvoirs.csv)",Référencé dans Spé Pouvoirs.csv (Prestige Seigneur Sith)
+147,XXXX_CRUSH_OPPOSITION_IV,Écraser l'opposition IV,Vanilla,Caché — pouvoir de prestige,,"Caché — Seigneur Sith (débuff zone Atq/Volonté, cf. Spé Pouvoirs.csv)",Référencé dans Spé Pouvoirs.csv (Prestige Seigneur Sith)
+148,XXXX_CRUSH_OPPOSITION_V,Écraser l'opposition V,Vanilla,Caché — pouvoir de prestige,XXXX_CRUSH_OPPOSITION_IV,"Caché — Seigneur Sith (débuff zone Atq/Volonté, cf. Spé Pouvoirs.csv)",Référencé dans Spé Pouvoirs.csv (Prestige Seigneur Sith)
+149,DARK_SIDE_CORRUPTION,Corruption du Côté Obscur,Vanilla,Caché / interne,,Interne — corruption,
+150,IGNORE_PAIN_I,Ignorer la douleur I,Vanilla,Caché / interne,,Interne PNJ — réduit les dégâts subis,
+151,IGNORE_PAIN_II,Ignorer la douleur II,Vanilla,Caché / interne,IGNORE_PAIN_I,Interne PNJ — réduit les dégâts subis,
+152,IGNORE_PAIN_III,Ignorer la douleur III,Vanilla,Caché / interne,IGNORE_PAIN_I ; IGNORE_PAIN_II,Interne PNJ — réduit les dégâts subis,
+153,INCREASE_COMBAT_DAMAGE_I,Dégâts de combat accrus I,Vanilla,Caché / interne,,Interne PNJ — bonus de dégâts,
+154,INCREASE_COMBAT_DAMAGE_II,Dégâts de combat accrus II,Vanilla,Caché / interne,INCREASE_COMBAT_DAMAGE_I,Interne PNJ — bonus de dégâts,
+155,INCREASE_COMBAT_DAMAGE_III,Dégâts de combat accrus III,Vanilla,Caché / interne,INCREASE_COMBAT_DAMAGE_I ; INCREASE_COMBAT_DAMAGE_II,Interne PNJ — bonus de dégâts,
+156,SUPER_WEAPON_FOCUS_LIGHTSABER_I,Arme de prédilection supérieure : sabres I,Vanilla,Maniement d'arme,WEAPON_SPEC_LIGHTSABER,+1 Atq sabres (prestige martiale),"Annexes §5.B : ouvrir l'accès des dons Supérieurs aux classes hybrides (comble les dons vides de la Sentinelle/Veilleur, diagnostic §6.B)"
+157,SUPER_WEAPON_FOCUS_LIGHTSABER_II,Arme de prédilection supérieure : sabres II,Vanilla,Maniement d'arme,SUPER_WEAPON_FOCUS_LIGHTSABER_I,+2 Atq sabres,Idem : élargir l'accès
+158,SUPER_WEAPON_FOCUS_LIGHTSABER_III,Arme de prédilection supérieure : sabres III,Vanilla,Maniement d'arme,SUPER_WEAPON_FOCUS_LIGHTSABER_I ; SUPER_WEAPON_FOCUS_LIGHTSABER_II,+3 Atq sabres,Idem : élargir l'accès
+159,SUPER_WEAPON_FOCUS_2_WEAPON_I,Combat à 2 armes supérieur I,Vanilla,Style & posture,TWO_WEAPON_MASTERY,+1 Atq & Dégâts main droite (classes martiales de prestige),Idem : élargir l'accès
+160,SUPER_WEAPON_FOCUS_2_WEAPON_II,Combat à 2 armes supérieur II,Vanilla,Style & posture,SUPER_WEAPON_FOCUS_2_WEAPON_I,+2 Atq & Dégâts main droite,Idem : élargir l'accès
+161,SUPER_WEAPON_FOCUS_2_WEAPON_III,Combat à 2 armes supérieur III,Vanilla,Style & posture,SUPER_WEAPON_FOCUS_2_WEAPON_I ; SUPER_WEAPON_FOCUS_2_WEAPON_II,+3 Atq & Dégâts main droite,Idem : élargir l'accès
+162,XXXX_INSPIRE_FOLLOWERS_I,Inspirer les fidèles I,Vanilla,Caché — pouvoir de prestige,,"Caché — Maître d'armes (buff de groupe, cf. Spé Pouvoirs.csv)","Référencé dans Spé Pouvoirs.csv (Prestige Maître d'armes, rangs I-VI)"
+163,XXXX_INSPIRE_FOLLOWERS_II,Inspirer les fidèles II,Vanilla,Caché — pouvoir de prestige,XXXX_INSPIRE_FOLLOWERS_I,"Caché — Maître d'armes (buff de groupe, cf. Spé Pouvoirs.csv)",Référencé dans Spé Pouvoirs.csv (Prestige Maître d'armes)
+164,XXXX_INSPIRE_FOLLOWERS_III,Inspirer les fidèles III,Vanilla,Caché — pouvoir de prestige,XXXX_INSPIRE_FOLLOWERS_I ; XXXX_INSPIRE_FOLLOWERS_II,"Caché — Maître d'armes (buff de groupe, cf. Spé Pouvoirs.csv)",Référencé dans Spé Pouvoirs.csv (Prestige Maître d'armes)
+165,XXXX_INSPIRE_FOLLOWERS_IV,Inspirer les fidèles IV,Vanilla,Caché — pouvoir de prestige,,"Caché — Maître d'armes (buff de groupe, cf. Spé Pouvoirs.csv)",Référencé dans Spé Pouvoirs.csv (Prestige Maître d'armes)
+166,XXXX_INSPIRE_FOLLOWERS_V,Inspirer les fidèles V,Vanilla,Caché — pouvoir de prestige,XXXX_INSPIRE_FOLLOWERS_IV,"Caché — Maître d'armes (buff de groupe, cf. Spé Pouvoirs.csv)",Référencé dans Spé Pouvoirs.csv (Prestige Maître d'armes)
+167,LIGHT_SIDE_ENLIGHTENMENT,Illumination (LS),Vanilla,Caché — pouvoir de prestige,,"Caché — Maître Jedi, débloque Illumination de Force (cf. Spé Pouvoirs.csv)",Référencé dans Spé Pouvoirs.csv (Illumination — Quête / Lumineux max)
+168,DEFLECT,Déflexion,Vanilla,Caché / interne,,Interne — déviation de tirs,
+169,INNER_STRENGTH_I,Force intérieure I,Vanilla,Caché / interne,,Interne (à documenter),
+170,INNER_STRENGTH_II,Force intérieure II,Vanilla,Caché / interne,INNER_STRENGTH_I,Interne (à documenter),
+171,INNER_STRENGTH_III,Force intérieure III,Vanilla,Caché / interne,INNER_STRENGTH_I ; INNER_STRENGTH_II,Interne (à documenter),
+172,INCREASE_MELEE_DAMAGE_I,Dégâts de mêlée accrus I,Vanilla,Caché / interne,,Interne PNJ — bonus de dégâts en mêlée,
+173,INCREASE_MELEE_DAMAGE_II,Dégâts de mêlée accrus II,Vanilla,Caché / interne,INCREASE_MELEE_DAMAGE_I,Interne PNJ — bonus de dégâts en mêlée,
+174,INCREASE_MELEE_DAMAGE_III,Dégâts de mêlée accrus III,Vanilla,Caché / interne,INCREASE_MELEE_DAMAGE_I ; INCREASE_MELEE_DAMAGE_II,Interne PNJ — bonus de dégâts en mêlée,
+175,CRAFT,Artisanat,Vanilla,Compétence & utilitaire,,Inutilisé dans K2 (l'établi est libre d'accès),
+176,MASTERCRAFT_WEAPONS_I,Artisanat supérieur : armes I,Vanilla,Compétence & utilitaire,,Inutilisé dans K2 (établi libre),
+177,MASTERCRAFT_WEAPONS_II,Artisanat supérieur : armes II,Vanilla,Compétence & utilitaire,MASTERCRAFT_WEAPONS_I,Inutilisé dans K2 (établi libre),
+178,MASTERCRAFT_WEAPONS_III,Artisanat supérieur : armes III,Vanilla,Compétence & utilitaire,MASTERCRAFT_WEAPONS_I ; MASTERCRAFT_WEAPONS_II,Inutilisé dans K2 (établi libre),
+179,MASTERCRAFT_ARMOR_I,Artisanat supérieur : armures I,Vanilla,Compétence & utilitaire,,Inutilisé dans K2 (établi libre),
+180,MASTERCRAFT_ARMOR_II,Artisanat supérieur : armures II,Vanilla,Compétence & utilitaire,MASTERCRAFT_ARMOR_I,Inutilisé dans K2 (établi libre),
+181,MASTERCRAFT_ARMOR_III,Artisanat supérieur : armures III,Vanilla,Compétence & utilitaire,MASTERCRAFT_ARMOR_I ; MASTERCRAFT_ARMOR_II,Inutilisé dans K2 (établi libre),
+182,DROID_INTERFACE,Interface de droïde,Vanilla,Compagnon / PNJ,,Interne droïde,
+183,CLASS_SKILL_AWARENESS,Compétence de classe : Vigilance,Vanilla,Compétence & utilitaire,,Transforme la compétence en compétence de classe (coût 1 pt au level up),
+184,CLASS_SKILL_COMPUTER_USE,Compétence de classe : Informatique,Vanilla,Compétence & utilitaire,,Transforme la compétence en compétence de classe (coût 1 pt au level up),
+185,CLASS_SKILL_DEMOLITIONS,Compétence de classe : Démolition,Vanilla,Compétence & utilitaire,,Transforme la compétence en compétence de classe (coût 1 pt au level up),
+186,CLASS_SKILL_REPAIR,Compétence de classe : Réparation,Vanilla,Compétence & utilitaire,,Transforme la compétence en compétence de classe (coût 1 pt au level up),
+187,CLASS_SKILL_SECURITY,Compétence de classe : Sécurité,Vanilla,Compétence & utilitaire,,Transforme la compétence en compétence de classe (coût 1 pt au level up),
+188,CLASS_SKILL_STEALTH,Compétence de classe : Discrétion,Vanilla,Compétence & utilitaire,,Transforme la compétence en compétence de classe (coût 1 pt au level up),
+189,CLASS_SKILL_TREAT_INJURY,Compétence de classe : Premiers soins,Vanilla,Compétence & utilitaire,,Transforme la compétence en compétence de classe (coût 1 pt au level up),
+190,DUAL_STRIKE,Frappe simultanée I (Dual Strike),Vanilla,Style & posture,,Mode actif 2 armes : les deux armes frappent en une seule action ; malus de CA (détail exact à vérifier en jeu),Non couvert par l'overhaul — à arbitrer (redondant avec l'Ambidextrie refondue ?)
+191,IMPROVED_DUAL_STRIKE,Frappe simultanée II,Vanilla,Style & posture,Niv. 4 ; DUAL_STRIKE,Malus de CA réduit,
+192,MASTER_DUAL_STRIKE,Frappe simultanée III,Vanilla,Style & posture,Niv. 8 ; DUAL_STRIKE ; IMPROVED_DUAL_STRIKE,Malus de CA réduit,
+193,FINESSE_LIGHTSABERS,Arme de prédilection — Finesse : sabres,Vanilla,Maniement d'arme,,Utilise le mod. de DEX au lieu de FOR aux jets d'attaque avec sabres si DEX > FOR,À RETIRER du jeu — les remaps d'attaque passent par les Spé carac (Echanis DEX mêlée / Gand INT distance / Matukai SAG)
+194,FINESSE_MELEE_WEAPONS,Arme de prédilection — Finesse : mêlée,Vanilla,Maniement d'arme,,Utilise le mod. de DEX au lieu de FOR aux jets d'attaque en mêlée si DEX > FOR,À RETIRER du jeu — remplacé par les remaps d'attaque des Spé carac (Echanis DEX mêlée / Matukai SAG)
+195,XXXX_MOBILITY,Mobilité,Vanilla,Caché / interne,Niv. 4,Caché (XXXX) — non utilisé,
+196,REGENERATE_VITALITY_POINTS,Régénération de vitalité,Vanilla,Classe (auto),Niv. 4,Régénère des PV avec le temps (interne),
+197,STEALTH_RUN,Course furtive,Vanilla,Compétence & utilitaire,Niv. 4,Se déplacer plus vite en mode furtif,
+198,KINETIC_COMBAT,Combat cinétique,Vanilla,Compagnon / PNJ,,Kreia — combat au sabre télékinésique (PNJ),
+199,SURVIVAL,Survie,Vanilla,Caché / interne,,Interne (inutilisé — à documenter),
+200,MANDALORIAN_COURAGE,Courage mandalorien,Vanilla,Compagnon / PNJ,,Mandalore — immunité à la Peur (à vérifier),
+201,PERSONAL_CLOAKING_SHIELD,Bouclier de camouflage personnel,Vanilla,Compagnon / PNJ,,Interne — camouflage intégré,
+202,MENTOR,Mentor,Vanilla,Compagnon / PNJ,,Interne (influence compagnons),
+203,IMPLANT_SWITCHING,Changement d'implant,Vanilla,Caché / interne,,Interne — gestion des implants,
+204,SPIRIT,Esprit,Vanilla,Compagnon / PNJ,,Interne (à documenter),
+205,FORCE_CHAIN,Chaîne de Force,Vanilla,Caché / interne,,Interne (Maître Jedi),
+206,WAR_VETERAN,Vétéran de guerre,Vanilla,Compagnon / PNJ,,Interne compagnon,
+207,COMPLEX_UNARMED_ANIMS,Animations mains nues avancées,Vanilla,Caché / interne,,Interne — animations,
+208,WEAPON_PROF_WRIST_MOUNTED,Port d'armes : lanceur de poignet,Vanilla,Maniement d'arme,,Mandalore — lanceur de poignet sans malus,
+209,ECHANI_STRIKE_I,Frappe echani I,Vanilla,Compagnon / PNJ,,Bonus de combat (Servante),TODO : remplacer le don de la Servante (Brianna) — éviter le cumul avec l'arbre joueur « Techniques Echanis »
+210,ECHANI_STRIKE_II,Frappe echani II,Vanilla,Compagnon / PNJ,ECHANI_STRIKE_I,Bonus accru,TODO : remplacer le don de la Servante — éviter le cumul avec l'arbre joueur « Techniques Echanis »
+211,ECHANI_STRIKE_III,Frappe echani III,Vanilla,Compagnon / PNJ,ECHANI_STRIKE_I ; ECHANI_STRIKE_II,Bonus maximal,TODO : remplacer le don de la Servante — éviter le cumul avec l'arbre joueur « Techniques Echanis »
+212,UNARMED_SPECIALIST_I,Spécialiste mains nues I,Vanilla,Classe (auto),,Dégâts à mains nues accrus (progression auto),Socle conservé ; l'identité mains nues passe par la posture Duel (1M) + Spé Arme Contondante + Matukai L3 — l'arbre dédié (Arts Martiaux / Arts Mutaki) est SUPPRIMÉ
+213,UNARMED_SPECIALIST_II,Spécialiste mains nues II,Vanilla,Classe (auto),UNARMED_SPECIALIST_I,Dégâts à mains nues accrus (progression auto),
+214,UNARMED_SPECIALIST_III,Spécialiste mains nues III,Vanilla,Classe (auto),UNARMED_SPECIALIST_I ; UNARMED_SPECIALIST_II,Dégâts à mains nues accrus (progression auto),
+215,UNARMED_SPECIALIST_IV,Spécialiste mains nues IV,Vanilla,Classe (auto),,Dégâts à mains nues accrus (progression auto),
+216,UNARMED_SPECIALIST_V,Spécialiste mains nues V,Vanilla,Classe (auto),UNARMED_SPECIALIST_IV,Dégâts à mains nues accrus (progression auto),
+217,UNARMED_SPECIALIST_VI,Spécialiste mains nues VI,Vanilla,Classe (auto),UNARMED_SPECIALIST_IV ; UNARMED_SPECIALIST_V,Dégâts à mains nues accrus (progression auto),
+218,UNARMED_SPECIALIST_VII,Spécialiste mains nues VII,Vanilla,Classe (auto),,Dégâts à mains nues accrus (progression auto),
+219,UNARMED_SPECIALIST_VIII,Spécialiste mains nues VIII,Vanilla,Classe (auto),UNARMED_SPECIALIST_VII,Dernier palier de dégâts à mains nues,
+220,SHIELD_BREAKER,Brise-bouclier,Vanilla,Compagnon / PNJ,,HK-47 — attaque vs boucliers (interne),
+221,REPULSOR_STRIKE,Frappe répulseur,Vanilla,Compagnon / PNJ,,HK-47 — renversement sur impact (interne),
+222,ELECTRICAL_STRIKE,Frappe électrique,Vanilla,Compagnon / PNJ,REPULSOR_STRIKE,HK-47 — dégâts ioniques sur impact (interne),
+223,GRAVITONIC_STRIKE,Frappe gravitonique,Vanilla,Compagnon / PNJ,REPULSOR_STRIKE ; ELECTRICAL_STRIKE,HK-47 — étourdissement sur impact (interne),
+224,WOOKIEE_TOUGHNESS_II,Robustesse wookiee II,Vanilla,Compagnon / PNJ,WOOKIEE_TOUGHNESS,+PV,
+225,WOOKIEE_TOUGHNESS_III,Robustesse wookiee III,Vanilla,Compagnon / PNJ,WOOKIEE_TOUGHNESS ; WOOKIEE_TOUGHNESS_II,+PV,
+226,XXXPRECISE_SHOT_IV,Tir de précision IV (PNJ),Vanilla,Caché / interne,Niv. 16 ; XXXPRECISE_SHOT_III,Caché (XXX) — version PNJ du Tir de précision,
+227,XXXPRECISE_SHOT_V,Tir de précision V (PNJ),Vanilla,Caché / interne,Niv. 20 ; XXXPRECISE_SHOT_IV,Caché (XXX) — version PNJ du Tir de précision,
+228,ASSASSIN_PROTOCOL_I,Protocole d'assassin I,Vanilla,Compagnon / PNJ,Niv. 1,HK-47 — protocole de chasse,
+229,ASSASSIN_PROTOCOL_II,Protocole d'assassin II,Vanilla,Compagnon / PNJ,Niv. 11 ; ASSASSIN_PROTOCOL_I,HK-47,
+230,ASSASSIN_PROTOCOL_III,Protocole d'assassin III,Vanilla,Compagnon / PNJ,Niv. 17 ; ASSASSIN_PROTOCOL_I ; ASSASSIN_PROTOCOL_II,HK-47,
+231,WOOKIEE_RAGE_I,Fureur wookiee I,Vanilla,Compagnon / PNJ,Niv. 1,Rage de combat (Hanharr),
+232,WOOKIEE_RAGE_II,Fureur wookiee II,Vanilla,Compagnon / PNJ,Niv. 11 ; WOOKIEE_RAGE_I,Rage améliorée,
+233,WOOKIEE_RAGE_III,Fureur wookiee III,Vanilla,Compagnon / PNJ,Niv. 17 ; WOOKIEE_RAGE_I ; WOOKIEE_RAGE_II,Rage maximale,
+234,DROID_TRICK,Tour de droïde,Vanilla,Compagnon / PNJ,Niv. 10,T3-M4 — piratage de droïde,
+235,DROID_CONFUSION,Confusion de droïde,Vanilla,Compagnon / PNJ,Niv. 15 ; DROID_TRICK,T3-M4,
+236,FIGHTING_SPIRIT,Esprit combattant,Vanilla,Compagnon / PNJ,Niv. 8 ; SPIRIT,Interne (à documenter),
+237,HEROIC_RESOLVE,Résolution héroïque,Vanilla,Compagnon / PNJ,Niv. 15 ; SPIRIT ; FIGHTING_SPIRIT,Interne (à documenter),
+238,MINE_IMMUNITY,Immunité aux mines,Vanilla,Défense & survie,,"Ne déclenche pas les mines (auto, accordé par script/classe)",
+239,POINT_GUARD,Garde rapprochée,Vanilla,Caché / interne,,Interne IA (Point Guard),
+240,PRECISE_SHOT_I,Tir de précision I,Vanilla,Actif — distance,Niv. 4,+1 Atq & Dégâts (distance) ; +2 CA vs blasters ; réduit le malus de tir sur cible en mêlée,
+241,PRECISE_SHOT_II,Tir de précision II,Vanilla,Actif — distance,Niv. 8 ; PRECISE_SHOT_I,+2 Atq & Dégâts ; +4 CA vs blasters ; réduit le malus en mêlée,
+242,PRECISE_SHOT_III,Tir de précision III,Vanilla,Actif — distance,Niv. 12 ; PRECISE_SHOT_I ; PRECISE_SHOT_II,+3 Atq & Dégâts ; +6 CA vs blasters ; réduit le malus en mêlée,
+243,PRECISE_SHOT_IV,Tir de précision IV,Vanilla,Actif — distance,Niv. 16 ; PRECISE_SHOT_III,+4 Atq & Dégâts ; +8 CA vs blasters ; réduit le malus en mêlée,
+244,PRECISE_SHOT_V,Tir de précision V,Vanilla,Actif — distance,Niv. 20 ; PRECISE_SHOT_IV,+5 Atq & Dégâts ; +10 CA vs blasters ; réduit le malus en mêlée,
+,,══ STYLES DE COMBAT — Style de combat.csv ══,CUSTOM — absent du jeu vanilla,,,,
+nouveau (246+),MOD_HEAVY_WEAPON_1,Maniement d'Arme Lourde I,CUSTOM — absent du jeu vanilla,STYLES DE COMBAT,Arme 2M équipée,+1 Atq ; dégâts mêlée 250 % FOR ; dégâts distance 200 % DEX (base moddée : 200 % FOR / 150 % DEX),"S'applique aux armes 2M (hache, vibro-épée, fusils 2M)"
+nouveau (246+),MOD_HEAVY_WEAPON_2,Maniement d'Arme Lourde II,CUSTOM — absent du jeu vanilla,STYLES DE COMBAT,Maniement d'Arme Lourde I,+2 Atq ; dégâts mêlée 275 % FOR ; dégâts distance 225 % DEX,
+nouveau (246+),MOD_HEAVY_WEAPON_3,Maniement d'Arme Lourde III,CUSTOM — absent du jeu vanilla,STYLES DE COMBAT,Maniement d'Arme Lourde II,+3 Atq ; dégâts mêlée 300 % FOR ; dégâts distance 250 % DEX,Arbitrage : seuils finaux à valider vs contrat DPR §9
+nouveau (246+),MOD_DOUBLE_WEAPON_1,Maniement d'Arme Double / Repeating I,CUSTOM — absent du jeu vanilla,STYLES DE COMBAT,Arme double ou blaster à répétition équipé,Dégâts +1/+1 (chaque bout) ; malus de CA réduit à -3 (base moddée -5 CA au lieu de -6/-10 Atq),Remplace les malus vanilla -6/-10 des armes doubles
+nouveau (246+),MOD_DOUBLE_WEAPON_2,Maniement d'Arme Double / Repeating II,CUSTOM — absent du jeu vanilla,STYLES DE COMBAT,Rang I,Dégâts +2/+2 ; malus de CA -2,
+nouveau (246+),MOD_DOUBLE_WEAPON_3,Maniement d'Arme Double / Repeating III,CUSTOM — absent du jeu vanilla,STYLES DE COMBAT,Rang II,Dégâts +3/+3 ; malus de CA -1,Rang III de l'arbre Lame Double §6 (« Cà2A Supérieur » assaut lourd)
+,,══ SPÉCIALISATIONS D'ARME PAR FAMILLE — Spécialisation d'arme.csv ══,CUSTOM — absent du jeu vanilla,,,,
+nouveau (246+),MOD_SPEC_BLUNT_1,Spécialisation Arme Contondante I,CUSTOM — absent du jeu vanilla,SPÉCIALISATIONS D'ARME PAR FAMILLE,Port d'armes mêlée + arme contondante équipée,"+2 Atq et +2 Dégâts (armes contondantes : matraque, bâton, pique de Force)",
+nouveau (246+),MOD_SPEC_BLUNT_2,Spécialisation Arme Contondante II,CUSTOM — absent du jeu vanilla,SPÉCIALISATIONS D'ARME PAR FAMILLE,Rang I + arme contondante équipée,Étourdit 1 tour (Vigueur annule). Règle commune : proc = plage de menace de l'arme / 20 par coup (évolue avec la posture Duel) ; DD = 10 + Niv. attaquant + mod. de la carac. directrice de l'arme,Stun droïde pour les cibles mécaniques
+nouveau (246+),MOD_SPEC_BLUNT_3,Spécialisation Arme Contondante III,CUSTOM — absent du jeu vanilla,SPÉCIALISATIONS D'ARME PAR FAMILLE,Rang II,Stun 2 tours ; cibles immunisées : -2 Atq 1 tour à la place,Retenu 13/11 (remplace « durée+1 / crit+1 »)
+nouveau (246+),MOD_SPEC_PRIM_1,Spécialisation Arme Primitive I,CUSTOM — absent du jeu vanilla,SPÉCIALISATIONS D'ARME PAR FAMILLE,Port d'armes mêlée + arme primitive équipée,"+2 Atq et +2 Dégâts (épées, hache, lames doubles primitives)",
+nouveau (246+),MOD_SPEC_PRIM_2,Spécialisation Arme Primitive II,CUSTOM — absent du jeu vanilla,SPÉCIALISATIONS D'ARME PAR FAMILLE,Rang I + arme primitive équipée,"Bris d'armure : -4 CA, 1 tour (Vigueur annule). Règle commune : proc = plage de menace de l'arme / 20 par coup (évolue avec la posture Duel) ; DD = 10 + Niv. attaquant + mod. de la carac. directrice de l'arme",
+nouveau (246+),MOD_SPEC_PRIM_3,Spécialisation Arme Primitive III,CUSTOM — absent du jeu vanilla,SPÉCIALISATIONS D'ARME PAR FAMILLE,Rang II,"Bris d'armure aggravé : -6 CA, 1 tour",Retenu 13/11 (variante RD -3 écartée : aucun EffectDamageReductionDecrease en NWScript)
+nouveau (246+),MOD_SPEC_VIBRO_1,Spécialisation Arme Vibrante I,CUSTOM — absent du jeu vanilla,SPÉCIALISATIONS D'ARME PAR FAMILLE,Port d'armes mêlée + arme vibrante équipée,"+2 Atq et +2 Dégâts (vibrolames, vibro-épées, vibrolames doubles)",
+nouveau (246+),MOD_SPEC_VIBRO_2,Spécialisation Arme Vibrante II,CUSTOM — absent du jeu vanilla,SPÉCIALISATIONS D'ARME PAR FAMILLE,Rang I + arme vibrante équipée,"Mutilation : -4 Atq et -4 Dégâts, 1 tour (Vigueur annule). Règle commune : proc = plage de menace de l'arme / 20 par coup (évolue avec la posture Duel) ; DD = 10 + Niv. attaquant + mod. de la carac. directrice de l'arme",
+nouveau (246+),MOD_SPEC_VIBRO_3,Spécialisation Arme Vibrante III,CUSTOM — absent du jeu vanilla,SPÉCIALISATIONS D'ARME PAR FAMILLE,Rang II,"Mutilation empilable : -2 supplémentaires par proc, plafond -8, durée rafraîchie 1 tour",Retenu 13/11 (variante simple possible : -6 fixe)
+nouveau (246+),MOD_SPEC_LASER_1,Spécialisation Arme Laser I,CUSTOM — absent du jeu vanilla,SPÉCIALISATIONS D'ARME PAR FAMILLE,Port d'armes sabres + sabre équipé,+2 Atq et +2 Dégâts (sabres laser),
+nouveau (246+),MOD_SPEC_LASER_2,Spécialisation Arme Laser II,CUSTOM — absent du jeu vanilla,SPÉCIALISATIONS D'ARME PAR FAMILLE,Rang I + sabre équipé,"Bris de volonté : -4 aux sauvegardes, 1 tour (Volonté annule). Règle commune : proc = plage de menace de l'arme / 20 par coup (évolue avec la posture Duel) ; DD = 10 + Niv. attaquant + mod. de la carac. directrice de l'arme",
+nouveau (246+),MOD_SPEC_LASER_3,Spécialisation Arme Laser III,CUSTOM — absent du jeu vanilla,SPÉCIALISATIONS D'ARME PAR FAMILLE,Rang II,Bris de volonté aggravé : -6 sauvegardes et draine 1d6 PF par proc,Retenu 13/11 — identité anti-caster (EffectDamageForcePoints validé)
+,,══ DISTANCE — Triangle Pistolet/Fusil/Gatling (§4 & §6) ══,CUSTOM — absent du jeu vanilla,,,,
+nouveau (246+),MOD_PISTOL_SPEC_1,Spécialisation Pistolet I,CUSTOM — absent du jeu vanilla,DISTANCE,Port d'armes : pistolets + pistolet équipé,"+1 Atq, +1 Dégât, +1 CA (« Maîtrise du Pistolet » §4)",Mobilité / multi-effets ; posture fournie par Science du Duel (1M)
+nouveau (246+),MOD_PISTOL_SPEC_2,Spécialisation Pistolet II,CUSTOM — absent du jeu vanilla,DISTANCE,Rang I,"+2 Atq, +2 Dégâts, +2 CA",
+nouveau (246+),MOD_PISTOL_SPEC_3,Spécialisation Pistolet III,CUSTOM — absent du jeu vanilla,DISTANCE,Rang II,"+3 Atq, +4 Dégâts, +2 CA",Duel Supérieur §6 pour le 1 pistolet
+nouveau (246+),MOD_RIFLE_FOCUS_1,Focus Fusil I,CUSTOM — absent du jeu vanilla,DISTANCE,Port d'armes : fusils + fusil 2M équipé,+1 Atq ; ignore RD 3,Sniper perce-armure
+nouveau (246+),MOD_RIFLE_FOCUS_2,Focus Fusil II,CUSTOM — absent du jeu vanilla,DISTANCE,Rang I,+2 Atq ; ignore RD 7,
+nouveau (246+),MOD_RIFLE_FOCUS_3,Focus Fusil III,CUSTOM — absent du jeu vanilla,DISTANCE,Rang II,+3 Atq ; ignore RD 12,
+nouveau (246+),MOD_RIFLE_SPEC_1,Spécialisation Fusil I,CUSTOM — absent du jeu vanilla,DISTANCE,Focus Fusil I,+50 % Mod. DEX aux dégâts,
+nouveau (246+),MOD_RIFLE_SPEC_2,Spécialisation Fusil II,CUSTOM — absent du jeu vanilla,DISTANCE,Rang I,+100 % Mod. DEX aux dégâts,
+nouveau (246+),MOD_RIFLE_SPEC_3,Spécialisation Fusil III,CUSTOM — absent du jeu vanilla,DISTANCE,Rang II,+150 % Mod. DEX aux dégâts,
+nouveau (246+),MOD_SNIPER_MASTER,Sniper Supérieur,CUSTOM — absent du jeu vanilla,DISTANCE,Spécialisation Fusil III,Multiplicateur de critique ×3,Détail des rangs intermédiaires à définir
+nouveau (246+),MOD_GATLING_FOCUS_1,Focus Gatling I,CUSTOM — absent du jeu vanilla,DISTANCE,Port d'armes : fusils + blaster à répétition,+1 attaque/round,Saturation offensive
+nouveau (246+),MOD_GATLING_FOCUS_2,Focus Gatling II,CUSTOM — absent du jeu vanilla,DISTANCE,Rang I,+2 attaques/round,
+nouveau (246+),MOD_GATLING_FOCUS_3,Focus Gatling III,CUSTOM — absent du jeu vanilla,DISTANCE,Rang II,+2 attaques/round (à définir),Détail rang III à définir
+nouveau (246+),MOD_GATLING_SPEC_1,Spécialisation Gatling I,CUSTOM — absent du jeu vanilla,DISTANCE,Focus Gatling I,Recul -4 ; +3 Dégâts,
+nouveau (246+),MOD_GATLING_SPEC_2,Spécialisation Gatling II,CUSTOM — absent du jeu vanilla,DISTANCE,Rang I,Recul -2 ; +6 Dégâts,
+nouveau (246+),MOD_GATLING_SPEC_3,Spécialisation Gatling III,CUSTOM — absent du jeu vanilla,DISTANCE,Rang II,Recul -1 ; dégâts à définir,« Saturation Supérieure » §6 — effets finaux à définir
+,,"══ ARMURES — 3 arbres (§8.B, acté) ══",CUSTOM — absent du jeu vanilla,,,,
+nouveau (246+),MOD_ARMOR_LIGHT_1,Seconde Peau I (légère),CUSTOM — absent du jeu vanilla,ARMURES,Port d'armure légère + armure légère équipée,+1 CA,"Identité : le Fugitif Blindé (Mira, Atton)"
+nouveau (246+),MOD_ARMOR_LIGHT_2,Seconde Peau II,CUSTOM — absent du jeu vanilla,ARMURES,Rang I + armure légère,"+2 CA, +1 Réflexes",
+nouveau (246+),MOD_ARMOR_LIGHT_3,Seconde Peau III,CUSTOM — absent du jeu vanilla,ARMURES,Rang II + armure légère,"+3 CA, +2 Réflexes","Endgame : CA la plus haute, aucun plafond DEX"
+nouveau (246+),MOD_ARMOR_MED_1,Blindage de Combat I (intermédiaire),CUSTOM — absent du jeu vanilla,ARMURES,Port d'armure interm. + armure interm. équipée,"RD 2, +1 Vigueur",Identité : le Soldat Professionnel (Bao-Dur)
+nouveau (246+),MOD_ARMOR_MED_2,Blindage de Combat II,CUSTOM — absent du jeu vanilla,ARMURES,Rang I + armure interm.,"RD 4, +2 Vigueur",
+nouveau (246+),MOD_ARMOR_MED_3,Blindage de Combat III,CUSTOM — absent du jeu vanilla,ARMURES,Rang II + armure interm.,"RD 6, +3 Vigueur","Endgame : CA moyenne, plafond DEX +4"
+nouveau (246+),MOD_ARMOR_HEAVY_1,Juggernaut I (lourde),CUSTOM — absent du jeu vanilla,ARMURES,Port d'armure lourde + armure lourde équipée,RD 3,"Identité : la Forteresse (Mandalore, HK-47, Jedi cuirassé)"
+nouveau (246+),MOD_ARMOR_HEAVY_2,Juggernaut II,CUSTOM — absent du jeu vanilla,ARMURES,Rang I + armure lourde,"RD 5, Immunité Renversement",
+nouveau (246+),MOD_ARMOR_HEAVY_3,Juggernaut III,CUSTOM — absent du jeu vanilla,ARMURES,Rang II + armure lourde,"RD 7, Immunité Renversement + Étourdissement",RD cumulée max : lourde 4 + Jugg III 7 + Robustesse II 2 = RD 13
+,,"══ MÉTAMAGIE (§7.A, acté — budget Consulaire) ══",CUSTOM — absent du jeu vanilla,,,,
+nouveau (246+),MOD_META_EMPOWER_1,Pouvoir Amplifié I,CUSTOM — absent du jeu vanilla,"MÉTAMAGIE (§7.A, acté",Classe Jedi/Sith,Dégâts des pouvoirs offensifs +15 % ; coût +2 PF,
+nouveau (246+),MOD_META_EMPOWER_2,Pouvoir Amplifié II,CUSTOM — absent du jeu vanilla,"MÉTAMAGIE (§7.A, acté",Rang I,+30 % ; coût +4 PF,
+nouveau (246+),MOD_META_EMPOWER_3,Pouvoir Amplifié III,CUSTOM — absent du jeu vanilla,"MÉTAMAGIE (§7.A, acté",Rang II,+50 % ; coût +6 PF,
+nouveau (246+),MOD_META_PENETRATE_1,Pouvoir Pénétrant I,CUSTOM — absent du jeu vanilla,"MÉTAMAGIE (§7.A, acté",Classe Jedi/Sith,+2 au DD des pouvoirs offensifs et de contrôle,
+nouveau (246+),MOD_META_PENETRATE_2,Pouvoir Pénétrant II,CUSTOM — absent du jeu vanilla,"MÉTAMAGIE (§7.A, acté",Rang I,+4 au DD,
+nouveau (246+),MOD_META_PENETRATE_3,Pouvoir Pénétrant III,CUSTOM — absent du jeu vanilla,"MÉTAMAGIE (§7.A, acté",Rang II,+6 au DD,
+nouveau (246+),MOD_META_EXTEND,Pouvoir Prolongé,CUSTOM — absent du jeu vanilla,"MÉTAMAGIE (§7.A, acté",Classe Jedi/Sith,Durée de tous les buffs de Force ×2,1 seul rang
+,,"══ SPÉCIALISATIONS CARACTÉRISTIQUE — spé carac.csv (ordre canonique FOR, DEX, CON, INT, SAG, CHA ; une par caractéristique, arbres exclusifs entre eux) ══",CUSTOM — absent du jeu vanilla,,,,
+nouveau (246+),MOD_GAMORREAN_1,Raffinement Gamoréen I,CUSTOM — absent du jeu vanilla,SPÉCIALISATIONS CARACTÉRISTIQUE,À définir,+1 FOR ; + ½ mod. FOR en rangs sur toutes les compétences ; interdit les 5 autres arbres de carac,
+nouveau (246+),MOD_GAMORREAN_2,Raffinement Gamoréen II,CUSTOM — absent du jeu vanilla,SPÉCIALISATIONS CARACTÉRISTIQUE,Rang I,+2 FOR ; tient toutes les armes à 1M (mêlée ET distance) ; postures autorisées : Duel et Ambidextrie uniquement,Test moteur T1 requis (arme double en main gauche) ; les repeating ne sont pas des armes doubles côté moteur
+nouveau (246+),MOD_GAMORREAN_3,Raffinement Gamoréen III,CUSTOM — absent du jeu vanilla,SPÉCIALISATIONS CARACTÉRISTIQUE,Rang II,+3 FOR ; immunité au mental,
+nouveau (246+),MOD_ECHANI_1,Techniques Echanis I,CUSTOM — absent du jeu vanilla,SPÉCIALISATIONS CARACTÉRISTIQUE,À définir,+1 DEX ; attaque mêlée : FOR/DEX (si DEX > FOR) ; interdit les 5 autres arbres,Validé
+nouveau (246+),MOD_ECHANI_2,Techniques Echanis II,CUSTOM — absent du jeu vanilla,SPÉCIALISATIONS CARACTÉRISTIQUE,Rang I,+2 DEX ; dégâts mêlée : FOR/DEX (si DEX > FOR),Validé
+nouveau (246+),MOD_ECHANI_3,Techniques Echanis III,CUSTOM — absent du jeu vanilla,SPÉCIALISATIONS CARACTÉRISTIQUE,Rang II,+3 DEX ; supprime le plafond de DEX des armures,Perce le pilier §8.A (assumé) — la duelliste cuirassée (Brianna)
+nouveau (246+),MOD_KRAITH_CON_1,Voie du dragon Kraith I,CUSTOM — absent du jeu vanilla,SPÉCIALISATIONS CARACTÉRISTIQUE,À définir,+1 CON ; RD + mod. CON ; interdit les 5 autres arbres,
+nouveau (246+),MOD_KRAITH_CON_2,Voie du dragon Kraith II,CUSTOM — absent du jeu vanilla,SPÉCIALISATIONS CARACTÉRISTIQUE,Rang I,+2 CON ; toutes les 6 s : convertit 5 % des PV max en 5 % des PF max si PF < 50 % (jamais sous 75 % PV),Rituel complet = 25 % PV ↔ 25 % PF ; combo assumé avec le pouvoir Corps de Force
+nouveau (246+),MOD_KRAITH_CON_3,Voie du dragon Kraith III,CUSTOM — absent du jeu vanilla,SPÉCIALISATIONS CARACTÉRISTIQUE,Rang II,+3 CON ; toutes les sauvegardes + mod. CON,
+nouveau (246+),MOD_GAND_1,Chasseur de prime Gand I,CUSTOM — absent du jeu vanilla,SPÉCIALISATIONS CARACTÉRISTIQUE,À définir,+1 INT ; attaque distance : DEX/INT (si INT > DEX) ; interdit les 5 autres arbres,Validé
+nouveau (246+),MOD_GAND_2,Chasseur de prime Gand II,CUSTOM — absent du jeu vanilla,SPÉCIALISATIONS CARACTÉRISTIQUE,Rang I,+2 INT ; dégâts distance : DEX/INT (si INT > DEX),Validé
+nouveau (246+),MOD_GAND_3,Chasseur de prime Gand III,CUSTOM — absent du jeu vanilla,SPÉCIALISATIONS CARACTÉRISTIQUE,Rang II,+3 INT ; dégâts des grenades ×2,Implémentation via le chantier Pouvoirs (scripts des sorts d'objet)
+nouveau (246+),MOD_MATUKAI_SAG_1,Maîtrise Matukai I,CUSTOM — absent du jeu vanilla,SPÉCIALISATIONS CARACTÉRISTIQUE,À définir,+1 SAG ; ajoute le mod. de SAG à l'attaque (s'ajoute à la carac directrice) ; interdit les 5 autres arbres,Exclusivité : colonne exclusion de feat.2da (à tester) + garde-fou script
+nouveau (246+),MOD_MATUKAI_SAG_2,Maîtrise Matukai II,CUSTOM — absent du jeu vanilla,SPÉCIALISATIONS CARACTÉRISTIQUE,Rang I,+2 SAG ; la SAG remplace la DEX pour la CA,Cumulable avec Précognition guerrière (types de bonus distincts)
+nouveau (246+),MOD_MATUKAI_SAG_3,Maîtrise Matukai III,CUSTOM — absent du jeu vanilla,SPÉCIALISATIONS CARACTÉRISTIQUE,Rang II,"+3 SAG ; sur critique à mains nues : Vague de Force gratuite — renversement 1 tour, aucun dégât (DD Réflexes 10 + Niv + SAG ; proc = plage/20/coup ; max 1/round ; pas de re-proc au sol ; stun uniquement via Spé Contondante L2 — même jet de proc ; rien si immunisé)",Mains nues = arme 1M : cf. Duel dans Style de combat.csv
+nouveau (246+),MOD_NOMI_1,Héritage de Nomi I,CUSTOM — absent du jeu vanilla,SPÉCIALISATIONS CARACTÉRISTIQUE,À définir,+1 CHA ; les compagnons gagnent 100 % de l'XP ; interdit les 5 autres arbres,
+nouveau (246+),MOD_NOMI_2,Héritage de Nomi II,CUSTOM — absent du jeu vanilla,SPÉCIALISATIONS CARACTÉRISTIQUE,Rang I,+2 CHA ; groupe : jets de sauvegarde + mod. CHA,
+nouveau (246+),MOD_NOMI_3,Héritage de Nomi III,CUSTOM — absent du jeu vanilla,SPÉCIALISATIONS CARACTÉRISTIQUE,Rang II,+3 CHA ; CA + mod. CHA,Cumulable avec Précognition guerrière (types de bonus distincts)

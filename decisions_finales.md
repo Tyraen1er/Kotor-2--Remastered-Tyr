@@ -160,4 +160,9 @@ Avec établi plafonné (`+2/+5/+10`) et RD des boss (`3/7/12`) :
 
 ---
 
-## 
+## Partie 2 : TODOs & Chantiers Ouverts
+
+1. **[TODO Équipement & Loot] :** Revoir les statistiques des équipements et leur distribution dans les tables de loot et chez les marchands (notamment pour soutenir la viabilité des armes Primitives, Contondantes et Vibrantes sur toute la progression Niv. 1 à 30).
+2. **[TODO Craft & Établi] :** Revoir les équipements craftables à l'établi (`itemcreate.2da` / `.uti`) pour garantir que chaque famille d'arme dispose de recettes viables et cohérentes avec les plafonds d'amélioration fixés.
+3. **[TODO Améliorations par Famille d'Armes] :** Revoir les types d'améliorations accessibles par catégorie d'arme à l'établi (ex. Lame + Garde uniquement pour les armes Primitives sans cellule énergétique ; Lame + Garde + Cellule pour les Vibrantes ; cristaux pour les Lasers).
+4. **[TODO Amélioration de la Furtivité] :** Une attaque en étant furtif est forcément un critique ?

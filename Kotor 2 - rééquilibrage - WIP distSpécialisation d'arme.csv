@@ -1,0 +1,30 @@
+,Feats I,Feats II,Feats III
+Spécialisation Arme Contondante,"Atq et dégât +2
+Prérequis arme contondante","Stun / Stun droide en cas de critique
+DD = 10 + niveau + modif.
+durée : 1 tour
+Proc : plage de menace / 20 par coup
+Prérequis arme contondante","Stun 2 tours
+cibles immunisées au stun : -2 Atq (1 tour) à la place
+(retenu 13/11 — remplace « durée +1 tour / crit +1 »)"
+Spécialisation Arme Primitive,"Atq et dégât +2
+Prérequis arme primitive","Bris d'armure (-4CA) en cas de critique
+DD = 10 + niveau + modif.
+durée : 1 tour
+Proc : plage de menace / 20 par coup
+Prérequis arme primitive","Bris d'armure aggravé : -6 CA (1 tour)
+(retenu 13/11 — remplace « durée +1 tour / crit +1 »)"
+Spécialisation Arme Vibrantes,"Atq et dégât +2
+Prérequis arme vibrante","Mutilation (-4 Atq et Dégâts) en cas de critique
+DD = 10 + niveau + modif.
+durée : 1 tour
+Proc : plage de menace / 20 par coup
+Prérequis arme vibrante","Mutilation empilable : -2 supplémentaires par proc, plafond -8 Atq/Dégâts, durée rafraîchie 1 tour
+(variante simple : -6 fixe — retenu 13/11)"
+Spécialisation Arme Laser,"Atq et dégât +2
+Prérequis arme laser","Bris de volonté (-4 Save) en cas de critique
+DD = 10 + niveau + modif.
+durée : 1 tour
+Proc : plage de menace / 20 par coup
+Prérequis arme laser","Bris de volonté aggravé : -6 sauvegardes et draine 1d6 PF par proc
+(retenu 13/11 — remplace « durée +1 tour / crit +1 »)"

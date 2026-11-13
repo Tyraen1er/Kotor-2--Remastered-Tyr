@@ -1,0 +1,45 @@
+,Base vanilla,Base moddé,Feats I,Feats II,Feats III
+Ambidextrie,"dégât mêlée 100% FOR main droite
+dégât mêlée 50% FOR main gauche
+attaque -6/-10
++2/0 si main gauche balanced","dégât mêlée 100% FOR main droite
+dégât mêlée 50% FOR main gauche
+attaque -6/-10","Atq -6/-6
++1 CA
+Prérequis : Une arme en main droite et une autre en main gauche équipées","Atq -4/-4
++2 CA
+Prérequis : Une arme en main droite et une autre en main gauche équipées","Atq -2/-2
++3 CA
+Prérequis : Une arme en main droite et une autre en main gauche équipées"
+Arme lourde (2M),X,"dégât mêlée 200% FOR
+dégât dist. 150% DEX
+Prérequis : Arme à deux mains équipée, non double","Atq 1
+dégât mêlée 250% FOR
+dégât distance 200% DEX
+Prérequis : Arme à deux mains équipée, non double","Atq 2
+dégât mêlée 275% FOR
+dégât distance 225% DEX
+Prérequis : Arme à deux mains équipée, non double","Atq 3
+dégât mêlée 300% FOR
+dégât distance 250% DEX
+Prérequis : Arme à deux mains équipée, non double"
+Duel,dégât mêlée 150% FOR,"dégât mêlée 150% FOR
+Prérequis arme à une main ou mains nues","Atq 2
+crit chance +1
+Prérequis arme à une main ou mains nues","Atq 4
+crit chance +2
+Prérequis arme à une main ou mains nues","Atq 6
+crit chance +3
+Prérequis arme à une main ou mains nues"
+Arme Double & Repeating Blaster,"dégât mêlée 150% FOR main droite
+dégât mêlée 50% FOR main gauche
+attaque -6/-10","dégât mêlée 150% FOR main droite
+dégât mêlée 50% FOR main gauche
+-5 CA
+Prérequis : arme double","Dégâts +1/+1
+-3 CA
+Prérequis : arme double","Dégâts +2/+2
+-2 CA
+Prérequis : arme double","Dégâts +3/+3
+-1 CA
+Prérequis : arme double"

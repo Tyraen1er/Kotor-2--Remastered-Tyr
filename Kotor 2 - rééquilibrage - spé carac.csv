@@ -1,0 +1,36 @@
+Feats name (WIP),Level 1,Level 2,Level 3
+"Raffinement Gamoréen I à III","+1 FOR
++ ½ mod. FOR en rangs sur toutes les compétences.
+Interdit l'obtention des dons : Techniques Echanis, Voie du dragon Kraith, Chasseur de prime Gand, Maîtrise Matukai, Héritage de Nomi","+2 FOR
+Permet de tenir à 1M toutes les armes. Rend l'utilisation des feats de postures double et 2M impossible.","+3 FOR
+Immunité au mental"
+"Techniques Echanis I à III","+1 DEX
+Atq mêlée +FOR/DEX (si DEX > FOR)
+Interdit l'obtention des dons : Raffinement Gamoréen, Voie du dragon Kraith, Chasseur de prime Gand, Maîtrise Matukai, Héritage de Nomi","+2 DEX
+Dmg mêlée +FOR/DEX (si DEX > FOR)","+3 DEX
+Supprime la limitation du bonus de CA grâce à la DEX des armures"
+"Voie du dragon Kraith I à III","+1 CON
+Ajoute CON à la RD/-
+Interdit l'obtention des dons : Raffinement Gamoréen, Techniques Echanis, Chasseur de prime Gand, Maîtrise Matukai, Héritage de Nomi","+2 CON
+toutes les 6 s : convertit 5 % des PV max en 5 % des PF max si PF < 50 %
+la conversion ne peut jamais faire tomber les PV sous 75 %","+3 CON
+All Saves +CON"
+"Chasseur de prime Gand I à III","+1 INT
+Atq distance +DEX/INT (si INT > DEX)
+Interdit l'obtention des dons : Raffinement Gamoréen, Techniques Echanis, Voie du dragon Kraith, Maîtrise Matukai, Héritage de Nomi","+2 INT
+Dégâts distance +DEX/INT (si INT > DEX)","+3 INT
+Grenade x2 damage"
+"Maîtrise Matukai I à III","+1 SAG
+Ajoute SAG à l'atq
+Interdit l'obtention des dons : Raffinement Gamoréen, Techniques Echanis, Voie du dragon Kraith, Chasseur de prime Gand, Héritage de Nomi","+2 SAG
+Remplace la DEX par la SAG pour la CA","+3 SAG
+En cas de critique à mains nues : Vague de Force gratuite — renversement 1 tour, aucun dégât
+DD Réflexes = 10 + Niv + SAG
+Proc = plage de menace / 20 par coup ; max 1 vague/round ; pas de re-proc sur cible au sol
+Ne stun jamais seul : l'étourdissement vient uniquement de Spé Arme Contondante L2 (même jet de proc)
+Aucun effet sur les immunisés au renversement"
+"Héritage de Nomi I à III","+1 CHA
+Les Compagnons ont 100 % de l'XP
+Interdit l'obtention des dons : Raffinement Gamoréen, Techniques Echanis, Voie du dragon Kraith, Chasseur de prime Gand, Maîtrise Matukai","+2 CHA
+Groupe : jets de sauvegarde + mod. CHA","+3 CHA
+CA + mod. CHA (parallèle à Précognition guerrière : SAG -> CA)"

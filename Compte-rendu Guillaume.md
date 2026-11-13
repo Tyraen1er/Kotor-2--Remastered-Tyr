@@ -45,3 +45,4 @@ Identité Armures
 - Légère
 - Moyenne
 - Lourde
+

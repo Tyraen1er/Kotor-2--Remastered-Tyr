@@ -1,0 +1,77 @@
+Pouvoir de la Force (WIP),Armure max autorisée,"Description
+level max",Changement,Obtention
+"Force Aura (LS)
+Aura de force",Interdite,"AC +6 et Save +6
+durée 60s",,Power selection
+"Force Barrier (LS)
+Barrière de Force",Légère,"RD 15/Physique
+durée 60s",,Power selection
+"Force Valor (LS)
+Talent de Force",Légère,"Carac et Save +5, immunité Poison
+Groupe - durée 20s",,Power selection
+Heal (LS),Moyenne,"Soigne 15 PV + SAG + CHA + (2 × Niveau)
+Groupe 15m, guérit Poison et Étourdissement""",,Power selection
+Revitalize (LS),moyenne,Ressuscite tous les alliés tombés au combat avec 10% de leurs PV max,"10% lvl 1 - le membre le plus proche
+20% lvl 2 - les deux membres les plus proches
+30% lvl 3 - tout le groupe",Power selection
+Stun / Stasis / Stasis Field (LS),interdite,"Paralyse tous les ennemis pendant 12s (Zone 10m)
+Vigueur annule (si réussi : ralenti), DD 5 + Niv + SAG + CHA""",,Power selection
+Stun Droid (LS),Armure moyenne,"1d6 dégâts/Niveau et désactive pendant 12s (Zone 6m)
+Vigueur 1/2 dégâts et annule désactivation, DD 5 + Niv + SAG + CHA""",,Power selection
+Battle Precognition (LS),Armure interdite,"Ajoute le modificateur de Sagesse à la Défense (CA)
+Passif, cumulable avec DEX (sans armure / robes uniquement)""",,Quete
+Force Enlightenment (LS),moyenne,"Active simultanément Vitesse, Armure et Talent au rang max possédé
+Lancer instantané (coût 30 PF)""",1d4 / niveau,Quete / Lumineux max
+Inspire Followers (LS),lourde,"+1 à +6 Attaque, Dégâts et Volonté pour tout le groupe (selon rang I-VI)
+durée 45s (hors droïdes)""",,Prestige Maitre d'arme
+Affect Mind (neutre),lourde,"Débloque les options avancées de persuasion par la Force en dialogue
+Soumet la plupart des esprits humanoïdes (hors droïdes)""",,Dialogue
+Battle Meditation (neutre),moyenne,"Groupe : Atq et Dégâts et Volonté +CHA et régénération PV accélérée
+Ennemis (15m) : -4 Atq, -4 Dégâts, -4 Volonté (Volonté annule), durée 20s""",,Power selection
+Burst of Speed (neutre),Armure interdite,"+2 attaques gratuites/round, +4 Défense, Vitesse déplacement ×2
+durée 36s""",,Power selection
+Energy Resistance (neutre),?,"RD 20 contre Énergie, Feu, Froid, Sonique, Électricité
+Immunité Poison, tout le groupe, durée 120s""",,Power selection
+Force Body (neutre),?,"Coût des sorts réduit : 30% payé en Force et 30% payé en Vitalité
+durée 30s""",,Power selection
+Force Deflection (neutre),Armure lourde,Déviation et renvoi des tirs de blaster sans sabre équipé (à mains nues),,Power selection
+Force Push (neutre),?,"Repousse à 5m, jette au sol, étourdit 12s et inflige 1.5 × Niveau dégâts
+Zone 15m, Réflexes 1/2 dégâts et annule étourdissement""",,Power selection
+Force Resistance (neutre),?,"Résistance à la Force : l'ennemi doit réussir 1d20 + Niv adverse vs DD 15 + Niveau
+durée 60s""",,Power selection
+Force Suppression (neutre),?,Dissipe et annule TOUS les pouvoirs de soutien actifs sur la cible,,Power selection
+Mind Trick (neutre),?,"Force un ennemi humanoïde à combattre pour vous pendant 30s
+Volonté annule, DD 5 + Niv + SAG + CHA (hors droïdes/bêtes)""",,Power selection (évolution d'Affect Mind)
+Throw Lightsaber (neutre),Armure lourde,"Attaque téléguidée garantie (touche automatique) sur jusqu'à 3 cibles
+1d6 dégâts par tranche de 2 Niveaux""",,Power selection
+Beast Trick (neutre),?,"Force une bête féroce hostile à combattre pour vous pendant 30s
+Volonté annule, DD 5 + Niv + SAG + CHA (bêtes uniquement)""",,Quête / Dialogue (Kreia sur Dxun)
+Breath Control (neutre),?,"Immunité totale aux Poisons et aux gaz toxiques / suffocation
+durée 240s""",,Quête / Dialogue (Kreia avant le Jekk'Jekk Tarr sur Nar Shaddaa)
+Force Camouflage (neutre),?,"Discrétion sans générateur de camouflage + bonus +8 en Discrétion
+Actif permanent (tant que non désactivé)""",,Prestige Assassin / Jedi Protecteur
+Force Sight (neutre),Armure lourde,"Vision à travers les portes/murs, révèle l'alignement et détecte les camouflages
+Actif permanent""",,Quête / Dialogue (Visas Marr avec haute influence)
+Precognition (neutre),Armure lourde,"Alerte textuelle du Jedi en cas de grand danger ou d'embuscade imminente
+Déclenchement contextuel passif""",,Quête / Dialogue (Histoire principale avec Kreia)
+Drain Force (DS),?,"Draine 30 Points de Force à tous les ennemis (Zone 10m) pour recharger sa réserve
+Volonté 1/2, DD 5 + Niv + SAG + CHA""",,Power selection
+Drain Life (DS),?,"Draine 1d4 PV/Niveau à tous les ennemis (Zone 10m) et soigne le lanceur
+Vigueur 1/2 dégâts, DD 5 + Niv + SAG + CHA (hors droïdes)""",,Power selection
+Fear (DS),?,"Tétanise / paralyse tous les ennemis pendant 18s et -4 Défense (Zone 10m)
+Volonté annule, DD 5 + Niv + SAG + CHA (hors droïdes)""",,Power selection
+Force Scream (DS),Amure légère,"7d6 (7-42) dégâts soniques + malus -6 à toutes les caractéristiques (Cône 10m, 30s)
+Volonté 1/2 et annule malus, DD 10 + Niv + SAG + CHA""",1D4 / niveau,Power selection
+Shock (DS),Armure interdite,"1d6 dégâts PV ET draine 1d6 Points de Force par Niveau (Zone 10m)
+Volonté 1/2, DD 5 + Niv + SAG + CHA""",,Power selection
+Slow (DS),?,"Ralentit la cible et draine 12 points dans toutes les caractéristiques (-1 pt/s)
+Imparable (aucun jet de sauvegarde, DD 100, hors droïdes)""",,Power selection
+"Wound (DS)
+Blessure",Armure interdite,"Étourdit 6s et inflige 50% des PV max de la cible
+Vigueur réduit à (Niveau) dégâts et annule étourdissement (hors droïdes)""",,Power selection
+Crush Opposition (DS),?,"-1 à -6 Attaque et jets de Volonté pour tous les ennemis (selon rang I-VI, Zone 15m)
+Volonté annule, DD 5 + Niv + SAG + CHA, durée 45s""",,Prestige Seigneur Sith
+Force Crush (DS),?,"Immobilise la cible 6s et inflige 1d10 dégâts purs par Niveau de personnage
+Vigueur 1/2 dégâts (immobilisation imparable), DD 5 + Niv + SAG + CHA""",,Quete / Obscur max
+Fury (DS),?,"+6 FOR, +2 attaques/round, +3 PV/Niv, +3 Vig/Vol, immunité Stase/Paralysie, bonus dégâts par kill
+Malus -6 Défense, durée 60s (non cumulable avec Vitesse)""",,Prestige Sith Maraudeur
